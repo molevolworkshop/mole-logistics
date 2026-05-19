@@ -22,6 +22,7 @@
     - Send email to all faculty to:
         1. confirm computer lab -> deadline two weeks before the start
         2. update their information in website: https://github.com/molevolworkshop/molevolworkshop.github.io/tree/master/faculty
+    - Confirm faculty/TA stipends with Jenn Martin (jmartin@mbl.edu)
 - Two weeks before start: 
     - create TAs VMs for everyone to check the computer labs: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
     - create slack workspace and send [welcome email](https://github.com/molevolworkshop/mole-logistics/tree/main/emails/welcome-participants.md)
