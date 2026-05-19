@@ -9,7 +9,7 @@ with four columns:
 - `affiliation`
 - `ip_address`
 
-We get these files from the `all-vm-ips.sh` script in `virtual-machines/late-additions`. _Note: We do not know if Paul created this script by manually copying names after running `listIPs.sh`. He will confirm._
+We get these files from the `all-vm-ips.sh` script in `virtual-machines/late-additions`. This file was created by after running `listIPs.sh` and adding names manually. For 2027, we could create a script for this.
 
 We then run the `script-nametags.Rmd` script which sources the functions in `generate_nametags.R`. This file creates two folders `faculty_nametags_output` and `students_nametags_output`, each with a PDF file `nametags_print.pdf` with the front and back of nametags. The nametags already have the IP address in the back. PDFs need to be printed as "Flip on short edge" (sometimes called "landscape duplex" or "tumble") so that IP addresses are correctly mapped to names.
 
