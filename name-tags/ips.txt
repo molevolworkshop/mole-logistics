@@ -1,0 +1,68 @@
+    149.165.175.214   # chelydra 1 of 8     josh justison
+    149.165.173.134   # chelydra 2 of 8     analisa milkey
+    149.165.173.191   # chelydra 3 of 8     solomon mcshea
+    149.165.172.111   # chelydra 4 of 8     thao nguyen
+    149.165.168.234   # chelydra 5 of 8     jeremy brown
+    149.165.169.58    # chelydra 6 of 8     claudia solis-lemus
+    149.165.174.78    # chelydra 7 of 8     anne smith
+    149.165.175.16    # chelydra 8 of 8     paul lewis
+    149.165.150.134   # apalone 1 of 14     peter beerli
+    149.165.151.47    # apalone 2 of 14     joe bielawski
+    149.165.174.20    # apalone 3 of 14     belinda chang
+    149.165.168.156   # apalone 4 of 14     scott edwards
+    149.165.169.47    # apalone 5 of 14     laura eme
+    149.165.173.26    # apalone 6 of 14     mandev gill
+    149.165.171.76    # apalone 7 of 14     tracy heath
+    149.165.174.206   # apalone 8 of 14     lacey knowles
+    149.165.171.135   # apalone 9 of 14     laura kubatko
+    149.165.168.67    # apalone 10 of 14    emily jane mctavish
+    149.165.175.210   # apalone 11 of 14    corrie moreau
+    149.165.169.255   # apalone 12 of 14    megan smith
+    149.165.173.89    # apalone 13 of 14    david swofford
+    149.165.168.184   # apalone 14 of 14    rosana zenil-ferguson
+    149.165.172.88    # amphioxus 1 of 47   Adikari Mudiyanselage, Chethana Subhashani Adikari (Chethana
+    149.165.174.94    # amphioxus 2 of 47   Aguilar Cabezas, Juan Pablo	juanpablo.aguilar@hamptonu.edu
+    149.165.172.66    # amphioxus 3 of 47   Arya, Srishti	srishti.arya@nhm.ac.uk
+    149.165.171.248   # amphioxus 4 of 47   Baker, Emily	ebaker3@sheffield.ac.uk
+    149.165.169.197   # amphioxus 5 of 47   Bruder, Ashlynn Grace	ashlynn.g.sherwood@vanderbilt.edu
+    149.165.171.38    # amphioxus 6 of 47   Burnes, Brian Sydnor	bsburnes@muw.edu
+    149.165.173.180   # amphioxus 7 of 47   Cariño, Yvonne Love	ylc6569@mavs.uta.edu
+    149.165.170.84    # amphioxus 8 of 47   Carter, Hugh Frank	h.carter@nhm.ac.uk
+    149.165.174.247   # amphioxus 9 of 47   Castillo Rodriguez, Nicolas	nca281@uky.edu
+    149.165.174.155   # amphioxus 10 of 47  Chandrasekhar, Anupama	axc0791@mavs.uta.edu
+    149.165.175.186   # amphioxus 11 of 47  Chang, Xinmin	changxinmin0512@gmail.com
+    149.165.171.25    # amphioxus 12 of 47  Chen, Jing-Xuan	chenjxzju@outlook.com
+    149.165.175.105   # amphioxus 13 of 47  Danforth, Isabelle Anne	iadanforth@vims.edu
+    149.165.175.53    # amphioxus 14 of 47  Denis, Joee Destiny	jdd232@cornell.edu
+    149.165.169.6     # amphioxus 15 of 47  Doucet, Alissa Marie	alissadoucet@uchicago.edu
+    149.165.172.119   # amphioxus 16 of 47  Eskut, Kaan Ihsan (Kaan)	kies222@uky.edu
+    149.165.170.216   # amphioxus 17 of 47  Ferreiro-Luce, Shayla Susanna	heyshay4360@outlook.com
+    149.165.170.105   # amphioxus 18 of 47  Garg, Sonali	sonaligarg@ufl.edu
+    149.165.168.44    # amphioxus 19 of 47  Giwa, Boluwatife Kafayat	giwab@oregonstate.edu
+    149.165.174.165   # amphioxus 20 of 47  Greenman, Noah	noah.greenman@fda.hhs.gov
+    149.165.170.211   # amphioxus 21 of 47  Hariharan, Janani	jh069@bucknell.edu
+    149.165.174.30    # amphioxus 22 of 47  He, Xinyi	hhxy@zju.edu.cn
+    149.165.168.83    # amphioxus 23 of 47  Imfeld, Tyler	imfeldt@xavier.edu
+    149.165.169.230   # amphioxus 24 of 47  Kang, Yebon Deborah (Deborah)	yebon@u.nus.edu
+    149.165.170.232   # amphioxus 25 of 47  Kramer, Elizabeth (Libby)	ek824421@ohio.edu
+    149.165.173.170   # amphioxus 26 of 47  Liu, Xuyu	lxynszbd_217@yahoo.com.sg
+    149.165.147.251   # amphioxus 27 of 47  Lopez Banda, Angel Aaron	aalopezb@asu.edu
+    149.165.147.237   # amphioxus 28 of 47  Okamoto, Kaoru Esther (Esther)	okamoto@caltech.edu
+    149.165.147.15    # amphioxus 29 of 47  Oliver, Lausanne Lee Ayugat	loliver28@gwu.edu
+    149.165.147.55    # amphioxus 30 of 47  Percino-Daniel, Ruth	rpercino@gmail.com
+    149.165.155.166   # amphioxus 31 of 47  Ramirez Molina, Nuria	nramirez3@gsu.edu
+    149.165.170.48    # amphioxus 32 of 47  Ramirez, Jamie	jr4253@nau.edu
+    149.165.147.138   # amphioxus 33 of 47  Rea, Edison	edison.rea@uky.edu
+    149.165.175.189   # amphioxus 34 of 47  Romero Tena, Pedro	pedro.romero@universite-paris-saclay.fr
+    149.165.147.56    # amphioxus 35 of 47  Runnels, Calvin	calvinmrunnels@gmail.com
+    149.165.170.210   # amphioxus 36 of 47  Rurik, Alexander	ajr7i@mtmail.mtsu.edu
+    149.165.175.4     # amphioxus 37 of 47  Salinas, Maria Belen (Mariabelen)	mbsalina@syr.edu
+    149.165.169.170   # amphioxus 38 of 47  Shametov, Askhan (Khan)	a269s268@ku.edu
+    149.165.169.57    # amphioxus 39 of 47  Sporre, Megan A (Meg)	masporre@umich.edu
+    149.165.175.177   # amphioxus 40 of 47  Tang, Zhuo (Austin)	zhuotang@ttu.edu
+    149.165.174.133   # amphioxus 41 of 47  Tao, Mei	taomei@zju.edu.cn
+    149.165.172.146   # amphioxus 42 of 47  Vijendran, Sriram	sriramv@iastate.edu
+    149.165.172.139   # amphioxus 43 of 47  Wang, Jiayang	jwang2657@wisc.edu
+    149.165.173.36    # amphioxus 44 of 47  Wang, Yifan	yw24k@fsu.edu
+    149.165.172.126   # amphioxus 45 of 47  Yu, Yunqing	yunqing.yu@hutton.ac.uk
+    149.165.172.181   # amphioxus 46 of 47  Zhang, Levana Lihua-Dalla Ricca	lz3106@cumc.columbia.edu

@@ -1,0 +1,66 @@
+## Information about the nametags from Paul Lewis:
+The labels in Scribus are 4 inches wide by 3 inches high. I got 4 labels per page in landscape orientation. The first name is in 42-point font and the last name (below the first name) is in 36 point font. At the top is a header that says "MBL Workshop on Molecular Evolution 2026" (12 point font) and on the bottom is a footer (12 point font) that has the name of the institution of the participant. I think I have an old Adobe InDesign template; if you use Adobe, let me know.
+
+**Note after 2026:** The nametags holders we have are smaller than 4x3. We need to change this script to print labels 3x2, not 4x3. We might need to change the font size too.
+
+US Letter in landscape is probably the cleanest here. You can fit a perfect grid of:
+
+- 2 columns
+- 3 rows
+- 6 badges/page
+
+with comfortable margins.
+
+Below is a complete R script that:
+
+- reads your CSV
+- creates a duplex-ready PDF
+- places 6 name tags per sheet
+- creates matching back pages with mirrored placement
+- uses 4" × 3" badges
+- centers all text
+- wraps long affiliations
+- optionally draws cut borders
+
+The output is designed for:
+
+- duplex printing
+- flip on short edge
+- then cut with a paper cutter.
+
+Your CSV should contain columns:
+
+- `first_name`
+- `last_name`
+- `affiliation`
+- `ip_address`
+
+Note that all the IP addresses are in the `all-vm-ips.sh` file in `late-additions` folder from Paul. I copied this into a txt file, read into Excel and modified manually the columns for the faculty. I divided faculty+TAs and students in two sheets, and first worked manually on the faculty. I needed to add the Affiliation.
+Actually, I had to manually change the students too based on the intro slides to use their preferred name.
+
+We save the xls into two csv: faculty.csv and students.csv.
+
+```{r}
+source("generate_nametags.R")
+
+# ── Entry point: set your paths here, then source or run the whole script ─────
+
+csv_path   <- "faculty.csv"   # path to your CSV file
+output_dir <- "faculty_nametags_output"    # folder where the PDF will be saved
+
+csv_path   <- "students.csv"   # path to your CSV file
+output_dir <- "students_nametags_output"    # folder where the PDF will be saved
+
+generate_nametags(csv_path, output_dir)
+```
+
+**Instructions for printing:**
+
+If your printer supports duplex printing:
+- Set it to "Flip on short edge" (sometimes called "landscape duplex" or "tumble"). This is the setting that matches how the backs are mirrored in the PDF.
+- Do not use "Flip on long edge" — that will misalign the backs.
+
+If you're printing manually (single-sided printer):
+- Print odd pages only (the fronts) first
+- Take the printed sheets out and flip them along the short edge (the left/right side, not top/bottom) before re-feeding
+- Print even pages only (the backs)
