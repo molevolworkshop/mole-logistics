@@ -28,4 +28,4 @@ virtual-machines/
         participant-vm-ids.sh			
         participant-vm-ips.sh
 ```
-where the *-ids.sh and *-ips.sh scripts are gitignored because they contain the VMs IDs and IP addresses, but they can be shared offline.
+where the *-ids.sh and *-ips.sh scripts are gitignored because they contain the VMs IDs and IP addresses, but they can be shared offline. **To-do:** Claudia will make a script to create this shell files from `listIPs.sh` and `listIDs.sh`.
