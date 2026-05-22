@@ -4,7 +4,7 @@
 
 This document attempts to summarize your duties as a course assistant for MOLE (short for the Workshop on Molecular Evolution) or STAMPS (Strategies and Techniques for Analyzing Microbial Population Structures), as well as describe how you’d go about carrying these duties out.
 
-This manual was originally written by MOLE Course Assistant Marcus Fedarko in 2018. It has been revised since based on the experiences of later Course Assistants Alyssa McGurer (2022), Elena Korte (2023), and Caitlin Randall (2025).
+This manual was originally written by MOLE Course Assistant Marcus Fedarko in 2018. It has been revised since based on the experiences of later Course Assistants Alyssa McGurer (2022), Elena Korte (2023), Caitlin Randall (2025), and Anne Smith (2026).
 
 In general, your duties as a course assistant include 1) setting up refreshments for breaks, 2) cleaning the equipment for that in between uses, and 3) attending to miscellaneous paperwork/logistical issues that come up during the course.
 
@@ -23,7 +23,7 @@ It’s a good idea to **get to Woods Hole a day or two in advance of when the co
 
 There’s a map of the MBL available at https://www.mbl.edu/about/campus-facilities-resources/campus-maps. If you have a smartphone, I’d recommend **saving this map to your device** (or at least bookmarking it), so that you have a guide for where everything is. You’ll probably pick up pretty quickly on the building locations, but having a map like this will still be useful in the early days of the course (or if you have to stop by an office in some random building).
 
-If you’re planning on bringing a car and running errands for the course, then you should look into **getting a parking pass** which will allow you to park on campus (and not in the Devil’s Lane parking area, which is inconvenient to get to after the shuttle stops running at night). Try to start contacting people about this at least a few days in advance of when you’ll arrive, to give the MBL time to argue with itself about whether or not to issue you a temporary on-campus parking pass.Note: Cheryl Gherst, who works in the Homestead Building, is another super helpful person to talk to about getting parking set up, as well as about your other duties in this job (e.g. petty cash, paychecks).
+If you’re planning on bringing a car and running errands for the course, then you should look into **getting a parking pass** which will allow you to park on campus (and not in the Devil’s Lane parking area, which is inconvenient to get to after the shuttle stops running at night). Try to start contacting people about this at least a few days in advance of when you’ll arrive, to give the MBL time to argue with itself about whether or not to issue you a temporary on-campus parking pass. Bar Neck parking lot is a pretty convenient place to park as it is not too far from Loeb, but this is dependent on where the workshop is being held. Note: Cheryl Gherst, who works in the Homestead Building, is another super helpful person to talk to about getting parking set up, as well as about your other duties in this job (e.g. petty cash, paychecks). 
 
 I’d recommend **asking your course directors if they have any place to store things overnight** in the building where the morning session of the course is taking place. During MOLE 2018, I stored most of the equipment in the Lillie building overnight, which forced me to spend a lot of time moving things between the Lillie, Rowe, and Loeb buildings. During STAMPS 2018, I was able to just store things in the Loeb building overnight and throughout the course, which made the process of setting up breaks so much easier. Note: It helps that the Loeb building has a break room with a large sink, as described in the Appendix. That makes cleaning out equipment a ton easier.
 
@@ -37,9 +37,9 @@ Probably your main duty as a CA is setting things up for breaks. People really l
 
 In the 2018 versions of MOLE and STAMPS, most days consisted of three course sessions: a morning session from 9am to 12pm, an afternoon session from 2pm to 5pm, and an evening session from 7pm to somewhere around 8pm–10pm. Each of these sessions has a short break (which usually takes anywhere from 10–15 minutes).
 
-Each session’s break generally occurs about an hour and fifteen minutes after the start of the session (so there are breaks at 10:15am, 3:15pm, and 8:15pm).
+Each session’s break generally occurs about an hour and fifteen minutes to thirty minutes after the start of the session (so there are breaks at 10:15am, 3:15pm, and 8:15pm). 
 
-Of course, many times the break will actually occur later than scheduled (sometimes up to 20–30 minutes late). In general, though, you should try to have things ready for each break by the hour-and-fifteen-minutes-after-start time specified above.
+Of course, many times the break will actually occur later than scheduled (sometimes up to 20–30 minutes late) or early (15 minutes early). In general, though, you should try to have things ready for each break by an hour after the start time specified above or 15 minutes before the break starts. 
 
 ### Session/Break locations
 
@@ -49,7 +49,7 @@ You should be able to set things up for a session’s break in the hallway just 
 
 There should be tables in Rowe just outside of the Speck Auditorium. For classrooms in other locations, you should check beforehand to make sure there’ll be a table.
 
-Working for a course with multiple classroom locations in different buildings on campus complicates the process of setting things up for breaks, because you have to move things between buildings during the day. If some of these buildings don’t have large, kitchen-like sinks, then things get even more complicated, since filling up the coffeemaker with water becomes a lot more tedious. So I’d recommend finding a convenient place where you can reliably store equipment overnight.
+Working for a course with multiple classroom locations in different buildings on campus complicates the process of setting things up for breaks, because you have to move things between buildings during the day. If some of these buildings don’t have large, kitchen-like sinks, then things get even more complicated, since filling up the coffeemaker with water becomes a lot more tedious. So I’d recommend finding a convenient place where you can reliably store equipment overnight. 
 
 ### What to have set up for breaks
 
@@ -79,6 +79,10 @@ You can usually just keep these sorts of things on the cart assigned to you, or 
 
 Side note: if you can, a box of feminine products (maybe a variety pack of tampons?) placed in the bathroom is a nice gesture and supports those students who cannot get transportation to town to buy these essential items. In addition, it would be really wise to provide hand sanitizer on the table and purchase sanitizing wipes so that people can wipe their own area to help minimize sickness. I also purchased local honey and a variety of teas including herbal, black tea, lemon ginger, and green tea. 
 
+#### Trash 
+
+Throughout the day you will likely produce a lot of trash. The MBL Campus sorts between cardboard and the remaining trash. To account for this, I kept a cardboard box to collect the broken down boxes (you will have a lot from drinks and snacks) and put a black trash bag in a paper bag to collect the remainding. This all may not be necessary depending on the location you are setting up, but G70 didn't have trash bins close enough or big enough to support the group. You will likely have to change the bags and dispose of the cardboard once a day.
+
 #### Optional: snacks
 
 Some courses might want to have snacks available for breaks, and some might not. Check with your course directors to figure out what they want. To make the process easier and to provide a record of what was purchased, an online order can be placed for pickup. However, this must be scheduled well in advance to ensure the items are ready on time. 
@@ -89,8 +93,7 @@ Also, I have found that people enjoy variety, so if possible, switch up some of 
     - The students also seem to really enjoy cereal bars
 3. Fruits (e.g. clementines, bananas, apples)
 
-
-The rest of this guide assumes your breaks will only feature drinks; however, your course’s directors might want you to get snacks for the breaks as well. If you need to go get snacks, there’s a Walmart in Falmouth where you can purchase things like bags of chips and granola bars cheaply. Note: You can purchase course materials with your allotted ``petty cash,'' which you can obtain from the Homestead Building. Talk to Cheryl Gherst for more information. Also, there’s a Stop \& Shop in Falmouth where you can purchase fruits. Note: I don’t remember if the Walmart had fruits, but I feel like Stop \& Shop is probably a safer bet for those. The Stop \& Shop also has lots of snacks available, but when I went they seemed a bit pricier than Walmart (so I’d suggest going to both stores, if you can).
+The rest of this guide assumes your breaks will only feature drinks; however, your course’s directors might want you to get snacks for the breaks as well. If you need to go get snacks, there’s a Walmart in Falmouth where you can purchase things like bags of chips and granola bars cheaply. Note: You can purchase course materials with your allotted ``petty cash,'' which you can obtain from the Homestead Building. Talk to Cheryl Gherst for more information. Also, there’s a Stop \& Shop in Falmouth where you can purchase fruits. Note: I don’t remember if the Walmart had fruits, but I feel like Stop \& Shop is probably a safer bet for those. The Stop \& Shop also has lots of snacks available, but when I went they seemed a bit pricier than Walmart (so I’d suggest going to both stores, if you can). The Walmart doesn't have any milk (2026), so I found myself going to the Aldis near Kappy's to get fresh fruit and milk. This store is also cheaper than Walmart.
 
 #### Limitations on what you have ready for breaks
 
@@ -106,7 +109,7 @@ The next section will talk about how you’ll go about getting stuff ready for t
 
 ### Cart
 
-You should be able to pick up a cart (to store equipment on) from Martha Peterson’s office when you pick up a coffee maker.
+You should be able to pick up a cart (to store equipment on) from Martha Peterson’s office when you pick up a coffee maker. In 2026, there were several accessible carts near the entrance of Loeb that I was able to use. This seemed to work well, but you should also do your best to make sure the carts are consistently returned to the right place. 
 
 ### Coffee
 
@@ -126,8 +129,9 @@ Additionally, I found it challenging to remove the used grinds from the percolat
 
 You could probably even brew 60 cups for the morning session and then just leave it on the ``keep warm'' setting for the rest of the day—that’s what I did during STAMPS 2018, and people seemed fine with it. Sometimes there was still some coffee left over at the end of the day, even. I don’t think there's a significant demand for coffee after the morning session; people seem to overestimate how much coffee they drink when you ask them about this in the morning. As mentioned in section Limitations, I’d recommend this way of doing things if your course directors are ok with it.
 
-You should use 2.5 cups of regular grind coffee for 40 cups. Do not use fine ground coffee (i.e. the grind used for espresso or drip coffeemakers) and don't use extra coarse grind. The coffee will fall through the cracks in the sieve if it is too finely ground (and perhaps will stop up the cracks, leading to a flood). If the coffee is too coarsely ground, you will end up with weak coffee, which is by far the lesser evil. In general, if the coffee package does not specify any particular grind, then it is probably regular grind. If you can find a source of good coffee in a store with a grinder, go with that. Otherwise, we can get by with something like Folgers Gourmet Supreme (and you can also get coffee in bulk from Sodexo in Swope Center).
+In 2026, there were roughly 60-70 attendees (including faculty). I found that making 80 cups of coffee before the morning session lasted until the start of the second session (at 2pm) on the keep warm setting. Then, I made 60 more cups and kept them on the keep warm setting for the rest of the day. People tended to not drink any more coffee after the start of the third session, but I kept a couple cups in the percolator just in case.
 
+You should use 2.5 cups of regular grind coffee for 40 cups. Do not use fine ground coffee (i.e. the grind used for espresso or drip coffeemakers) and don't use extra coarse grind. The coffee will fall through the cracks in the sieve if it is too finely ground (and perhaps will stop up the cracks, leading to a flood). If the coffee is too coarsely ground, you will end up with weak coffee, which is by far the lesser evil. In general, if the coffee package does not specify any particular grind, then it is probably regular grind. If you can find a source of good coffee in a store with a grinder, go with that. Otherwise, we can get by with something like Folgers Gourmet Supreme (and you can also get coffee in bulk from Sodexo in Swope Center). In 2026, the Folger's Classic Roast Grounds worked well and didn't fall through the grate much.  
 
 If the coffee maker malfunctions and you need to get coffee catered (as described in section \ref{sec:malfunctions}), then these same general rules apply. In terms of boxes of coffee (e.g. ``Boxes of Joe'' from Dunkin’ Donuts, where 1 box ~ 10 cups of coffee), I’d recommend getting 5 boxes for the morning session, for example. But it’s up to you, and what you think is appropriate. Note: Also, getting coffee catered is relatively expensive, to the point where I’d say that it makes sense to just get 5–6 boxes of coffee in the morning and use those for the rest of the day.
 
@@ -197,6 +201,10 @@ If you’re standing in the lobby of Swope facing the front desk, head to the do
 
 You might want to shake the cooler around a bit to distribute the ice throughout it. Once you’re satisfied, you can just bring the cooler over to the break setup area and leave it there.
 
+In 2026, Sodexo required that we inform them every time we used the cooler. I was able to talk to Steven Allen (steven.allen@sodexo.com) and set up two times (10am and 4pm) that employees would be present to allow me to get ice. This later changed to emailing the company (at Dining@mbl.edu) the day before each day of the workshop to allow me to get ice. I would suggest emailing the company ahead of the first workshop day to define how and when you are going to get ice during the workshop. I would also suggest asking whoever you talk to to communicate with the rest of the staff so they know why you are there. 
+
+What worked for me was collecting ice in the 5 gallon water jug at 10 am (which then remained cold the rest of the day), draining the two previous coolers (only some of the ice melts over night), moving the ice from the soft drink coller to the alcohol cooler, and then filling the alcohol cooler at 4 pm with enough ice to also top off the soft drinks cooler at this time. This gave me ice for the whole day and into the social hours. It goes without saying, keep the cooler ice (dirty) and water ice (drinkable) separate to prevent contamination.
+
 ### Draining the cooler
 
 You can drain the cooler out on any reasonable grassy location around campus, using the plug located on its back. I like to empty out the leftover cans, etc. onto paper towels and leave them to dry overnight (if you don’t have a place to store stuff outside of a classroom, you should be able to store them in Lillie 338 or 302).
@@ -226,6 +234,26 @@ Sprite                 | 7.5                       |  58 |
 
 (Note that we ran out of Coke Zero and Root Beer during MOLE, so the numbers there might be lower than normal.)
 
+MOLE 2026 was a bit larger than average, so here is another reference:
+
+_Drink Type_             | Cans Consumed | _Snack Type_     | Amount Consumed |
+-----------------------|---------------|----------------|-----------------|
+Caprisun (pouches)     |               |Sandwich Crackers|   |
+Polar Seltzer          |    | Cookies (oreos, ginger snaps) |
+Root Beer              |    | Chip Bags |
+Bubly                  |    |Bars (e.g cereal, granola) |
+Arizona Tea            |    |Fruit |  
+Diet Coke              |    | Cheezits|
+Coke Zero              |    | Popcorn |
+Coke Original          |    | Diced Fruit |
+La Croix               |    | Gummy Fruit Snacks |
+Spindrift              |    | Gold Fish |
+Sprite                 |
+Canada Dry             |      
+Total cans |  |                                         
+
+Note: I didn't get any water bottles since I used the 5 gallon water jug to supply water with red solo cups.
+
 ## Hot Water Kettle (for tea/hot chocolate)
 
 Both MOLE and STAMPS had a fair share of people who preferred tea (or hot chocolate) to coffee, sometimes rather vocally. So accommodating those people is a good idea.
@@ -235,6 +263,8 @@ do that.
 ### Preparing lots of hot water
 
 If you have a second coffee maker or other heat-resistant repository available, you can heat up some hot water in the kettle, store the hot water in the second coffee maker, and then heat up some more hot water (repeating the process to fill up the second coffee maker with hot water as necessary). This way, you can have a lot of hot water ready at once. This helps if a lot of people in the course really like tea or hot chocolate, since it alleviates the need for people to go refill the hot water kettle.
+
+In 2026, there is not a second coffee maker, but there are three hot water kettles which allow for the bulk production of hot water. I found that only some hot water was wanted during the day, so the metal kettle was enough. However, around the night session, I used both the white kettle and the metal one, periodically filling both to keep up with demand. The metal kettle is great because it can be put on a keep warm mode that only resets in around an hour orr so. However, the white kettle does not keep warm, so you just have to periodically turn it on to keep it warm. 
 
 ## Conclusion
 
