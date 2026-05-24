@@ -2,23 +2,150 @@ _Note: This file comes from tanote.md from https://github.com/molevolworkshop/mo
 
 This note contains some information that may be useful for future teaching assistants (TAs) at the Workshop for Molecular Evolution (MOLE), Woods Hole, MA.
 
+Might also be good to briefly look at the `course-assistant-handbook`.
+
+
+# Roles and Responsibilities
+- Test lab tutorials
+- Run some labs and sessions
+	- Introduction to computer setup
+	- Allignment lab
+	- IQ-TREE introduction
+	- IQ-TREE lab
+- Answer questions relating to course material
+- Help troubleshoot lab materials as participants go thru materials
+- Assist in logistics
+	- Procure materials
+	- Set up social spaces and classroom space
+- Run t-shirt contest and coordinate t-shirt printing
+- Find food preferences for lobster dinner
+- Be a friendly face
+
+
 # Before MOLE
+
 ## Updating profile on the website
 Once TAs get access (granted by the director(s)) to contribute to the GitHub repository of the MOLE website, the profiles of TAs/instructors available in `faculty` folder in the repository [https://github.com/molevolworkshop/molevolworkshop.github.io/tree/master/faculty] can be edited -- good idea to keep the information up-to-date.
 
+## Check course materials sheet 
+
+Ensure items used during the course are accounted for (either in storage or somebody is bringing).
+Might be good to have somebody bring a portable speaker. 
+
 ## Testing the tutorials
-Once the testing version of the virtual machine (VM) is prepared, the lead TA can assign tutorials to each TA. Each TA is responsible for checking if the assigned tutorial works fine; for example, whether the required software is installed in VM, the provided code in the tutorial is executing without error, example data is uncorrupted, the results and the interpretation in the tutorial are consistent and makes sense, etc. 
+Once the testing version of the virtual machine (VM) is prepared, the lead TA can assign tutorials to each TA.
+ Each TA is responsible for checking if the assigned tutorial works fine; for example, whether the required software is installed in VM, the provided code in the tutorial is executing without error, example data is uncorrupted, the results and the interpretation in the tutorial are consistent and makes sense, etc. 
 
-TAs can let the lead TA know when testing the assigned tutorials is complete. Lead TA should track the progress. Then, TAs can try other tutorials that are not assigned to them. This will help TAs familiarize themselves to the other tutorials and also test if the tutorial works fine in different machines or OS.
+TAs can let the lead TA know when testing the assigned tutorials is complete.
+Lead TA should track the progress. Then, TAs can try other tutorials that are not assigned to them. TAs should be familiar with the input commands and outputs such that they can help others funble thru it.
+This will help TAs familiarize themselves to the other tutorials and also test if the tutorial works fine in different machines or OS.
 
-If some issues were identified, it should be described in detail on Slack channel. If the issue is related to VM (e.g., software not installed), co-directors could fix; otherwise, in the case of the analysis giving different results from the tutorial, for example, TAs could let the instructor know and let them fix it. Sooner to get this step complete is better, in order to prevent last minute changes to VM.
+If some issues were identified, it should be described in detail on Slack channel.
+If the issue is related to VM (e.g., software not installed), co-directors could fix; otherwise, in the case of the analysis giving different results from the tutorial, for example, TAs could let the instructor know and let them fix it.
+Sooner to get this step complete is better, in order to prevent last minute changes to VM.
 
 ## Sessions led by TAs
-During the workshop, TAs are responsible to lead four 90-minute sessions: (1) introduction computing laboratory, (2) alignment lab, (3) IQ-TREE introduction, and (4) IQ-TREE lab and quiz. In 2024, the lead TA led the Intro Computing lab, each of the two experienced TAs led the alignment lab and IQ-TREE introduction, respectively, and two newer TAs worked together on IQ-TREE lab and quiz (more information below).
+During the workshop, TAs have historically been responsible to lead four 90-minute sessions:
+- (1) introduction computing laboratory
+- (2) alignment lab
+- (3) IQ-TREE introduction
+- (4) IQ-TREE lab and quiz.
 
-# At MOLE 
+Consult with the course directors to ensure this is still the expectation.
+Make sure at least one TA is responsible for each lab and ready to lead by course start.
+
+## Get in cahoots with t-shirt printer
+
+We have worked with (Kaleidoscope Imprints)[https://www.kaleidoscopeimprints.com/] in the past.
+Contact them well in advance (~1 month) to ensure they have capacity for printing/ cost estimates.
+Also, ask the latest date that they would need to have designs in by to ensure partipants can have shirts by course end; this will dictate the turnaround time for t-shirt designs and voting.
+Inquire on desired colours. 
+
+# Set up at MOLE
+
+## Inventory Materials
+
+Gather MOLE materials from wherever they are stored and take stock of things that are missing/low in number. See materials sheet for items that have been used during the workshop.
+Stock low supplies, drinks, and snacks prior to course start.
+
+
+## Run designated labs and assist with others
+
+See notes below for oddities and things to be aware of with labs.
+
+
+## Set up classroom
+The classroom should have enough tables/chairs to seat ~60 people. Also, make sure that tables are connected to electricity and that cables aren't a trippjng hazard. 
+Stock classroom with batteries (AA for mic, AAA for laser pointers if desired), markers and dry erase fluid. 
+
+
+# During MOLE
+
+
+## T-shirts
+
+In the first day mention t-shirts and start soliciting design submissions. 
+Shirt designs should ideally have the following information:
+* ``Marine Biological Laboratory, Woods Hole, MA"
+* ``N^th (e.g., 35th) Workshop on Molecular Evolution"
+* ``Current year"
+* Preferrably related to the contents covered
+* In high quality, with no excessively thin lines (printing will be difficult)
+* Examples: https://molevolworkshop.github.io/tshirts/ 
+
+You will also need to get t-shirt size information (if not a part of application materials).
+This has historically been done in conjunction with the lobster dinner inquiry in the form a google form.
+As a template, an editable/copyable form can be found (here)[https://docs.google.com/forms/d/1jfmHE40X8XahRs1rNq8RPI4rld9_gi5DlUJKsbCNGUM/edit].
+
+
+Creating a t-shirt channel on slack has worked nicely for submitting ideas. 
+Close submissions 12 to 18 hours prior to the order deadline from the t-shirt company to allow voting. 
+Create a ranked choice form for voting. 
+
+Order extra t shirts because there will be some problems with the number of t-shirts and sizes.
+People take different size t-shirts from what they input. 
+Make sure to check the number of t-shirts in different sizes matches with the number we ordered.
+Adittionally, to ensure everybody gets what they ordered, it is better to distribute one by one by checking the spreadsheet instead of a free-for-all.
+
+
+## Lobster Boil 
+
+We need to know how many people want lobster/dietary restrictions for the lobster dinner.
+This information is usually acquired in conjunction with the t-shirt size inquiry, see above.
+
+## Set up/tear down evening social
+
+The past year we used the MBL club for social outings in the evenings. If using MBL club, alcohol needs to stay in MLB club. 
+Drinks are not covered by MBL, so we have solicited dollars from folks (give big puppy-dog eyes towards senior faculty, they're often generous) to pay for alcohols.
+
+### Set up
+- Check snack  drinks (both NA and NNA) supply perhaps around dinner
+    - Though maybe if earlier in the day we can coordinate with CA to go into town and snag things
+- Load coolers  - perhaps one person could start doing this as one of the labs is winding down
+- select some snacks from supply
+- We can either load up a cart, walk things over manually, or possibly coordinate with somebody with a car to transport materials.
+- Check with security when they will be around to open (this was 10 in the past). We should be there ready for them. Somebody needs to remain present in the building once unlocked.
+    - Depending on how labs go we may be able to call ahead for them to unlock early: (508)289-7217 (security non-emergency number)
+
+### Clean up 
+- We should aim to have things ready to lock up by 11:30 so security isn't waiting on us
+- pick up any trash
+    - Take trash and recycling to dumpsters across the street
+    - replace bags
+- light wipe of any dirty surfaces 
+- straighten any chairs or tables
+- transport snacks and drinks back to Loeb 
+    - alcohol needs to be locked up. This has been done in the 1st floor break room in Loebb.
+		- The combination has been 1981
+    - try to take note of anything that might need restocking
+
+
+
+## General logistics 
+
+
 ## Wi-Fi
-May be this would change in the future, but as of 2024, Wi-Fi can be connected in MBL using
+May be this would change in the future, but as of 2026, Wi-Fi can be connected in MBL using
 ```
 Wi-Fi: MBL-guest
 Password: mblguest
@@ -27,60 +154,9 @@ Password: mblguest
 and `eduroam`.
 
 
-## T-shirts
-It is important to consult the t-shirt shop as early as we can. In 2023 and 2024, we worked with *Howlingbird Studio* [https://howlingbird.com], located in Falmouth. In 2024, we have to order the t-shirts before May 28 morning (workshop Day 5) to get it before the end of workshop. Keep in mind the schedule is a little tight. In terms of payment, MBL can issue a purchase order to *Howlingbird*. We will need the number of each t-shirt of each size and the cost information. 
 
+## Lab Notes 
 
-```
-**Howlingbird Studio**
-115 Palmer Ave Unit 2B
-Falmouth MA, 02540
-Open hours:
-Monday-Friday 10:00 AM — 4:00 PM
-Saturday 11:00AM - 4:00 PM Retail Only
-Sunday CLOSED
-508-540-3787
-info@howlingbird.com
-```
-
-Extra information about the t-shirt design:
-
-The design should include the following items:
-
-* ``Marine Biological Laboratory, Woods Hole, MA"
-* ``N^th (e.g., 35th) Workshop on Molecular Evolution"
-* ``Current year"
-* Preferrably related to the contents covered
-* In high quality, with no excessively thin lines (printing will be difficult)
-* Examples: https://molevolworkshop.github.io/tshirts/ 
-
-Color of the T-shirts can be decided after the design is selected.
-
-People take different size t-shirts from what they input. Even though we order extra, there will be some problems with the number of t-shirts and sizes. Make sure to check the number of t-shirts in different sizes matches with the number we ordered. Then, instead of letting students to take one by themselves, it is better to distribute one by one by checking the spreadsheet, so they take what they asked for.
-
-### 2025 T-shirt notes:
-
-We worked with Howlingbird, now Kaleidoscope Imprints [https://www.kaleidoscopeimprints.com/], again in 2025. Some notes and then a narrative summary:
-
-1. Contact Kaleidoscope ahead of the course, it may be possible to make a plan such that they can print shirts by the end of the course.
-2. If they can, you'll still have a tight timeline: announce the t-shirt competition early, and make one google form to vote and collect sizes. You will also want to choose a color scheme, or let the students choose from a short list. Kaleidoscope will have good advice on colors, and may have certain fabrics and inks in stock. We got an extra size S, 2 extra Ms, 2 extra Ls, and an extra XL (I think), in case of loss or mix-up. Once all was said and done, we sent the remaining extras to MBL staff as a thank-you.
-
-We contacted Kaleidoscope at the beginning of the course but they had a huge Memorial Day order and a broken machine, such that they couldn't print shirts for us on a short timeline. Instead, we collected students' addresses and mailed them the shirts. Kaleidoscope mailed them to me (Hanon McShea) at home a few weeks after the course, and I bought plastic mailing envelopes and label sleeves. I created labels en masse from a spreadsheet using USPS Click-N-Ship, packaged the shirts, and mailed them out. This was about 10 hours of work after the course had ended. It cost about $300 to ship about 40 shirts domestically and another $300 to ship 15 internationally. The whole thing was pretty straightforward, and I am happy to answer questions and help future TAs through the process (hanonmcshea AT gmail.com).
-
-As we were figuring out what to do given that Kaleidoscope couldn't do the short timeline, we researched many online options. Everything we found was either a scam (angry reviews from people who never got their shirts, or who didn't get them on the promised timeline) or lousy (sticky iron-on sort of thing). I think this is a craft where the old saying - "pick two: good, fast, and cheap" - certainly still applies. 
-
-
-## Survey
-To get information on the size of the t-shirts for each participant, as well as whether they would want to have a lobster for the course dinner party, we created a Google survey [e.g., https://docs.google.com/forms/d/1F0PLsQDkbpUwzcDr4vYRjnZd31H6qC1eqY8w97kC-1M] that contains the following questions:
-
-* What is your name?
-* For the "Course Dinner Party" on Wednesday, May 29 -- we are planning to get LOBSTERS. Do you want us to order one for you? (Y/N)
-* Please let us know any allergies or dietary restrictions that we need to know to get alternative option for you.
-* T-shirt size? (XS, S, M, L, XL, XXL)
-* Which color do you prefer for your T-shirt? (consult with the shop)
-
-
-## Introduction to Computing Laboratory
 ### Post-it system
 Before the Intro Computing lab, TAs place one of each green (or blue/yellow) and pink post-it at each participant's desk. This is one good way to promote communication between the TAs and the participants on how they are doing during the tutorial. Green post-it means the participant is complete with the given task and pink means that they need a help. They can stick the post-it on top of their labtop or at the edge of the table, whichever easily visible by the TAs. Note the post-its are not provided by MBL.
 
