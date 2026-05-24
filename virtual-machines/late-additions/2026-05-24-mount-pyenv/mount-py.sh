@@ -1,8 +1,4 @@
-When trying to activate the environment with
-. /var/pyenv/bin/activate
-it doesn't work. In fact if we ls'd that directory we can see it is empty which is making me think the volume isn't mounted.
 
-I think we need to modify this:
 #!/bin/bash
 
 MOLEBASE="149.165.150.186"
