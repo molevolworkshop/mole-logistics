@@ -31,6 +31,7 @@
 - One week before start: 
     - create all VMs [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
         - note they need to be shelved and locked
+        - note it is worth checking the computer labs again (recall problems with mounting volume for python environment)
     - print name tags: follow information [here](https://github.com/molevolworkshop/mole-logistics/tree/main/name-tags)
     - email Maia Theophanis (mtheophanis@mbl.edu) for the MOLE supplies: large coffee percolator, electric kettles, 1-2 folding tables and coolers, name tag holders
 - First day:  
