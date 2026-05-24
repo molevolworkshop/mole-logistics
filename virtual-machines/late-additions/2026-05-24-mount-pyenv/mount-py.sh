@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 MOLEBASE="149.165.150.186"
@@ -8,4 +7,3 @@ for ip in ${VMIPS[@]}
 do
     ssh -t moleuser@$ip "bash -c 'sudo mount -t nfs $MOLEBASE:/media/volume/MOLE-data-2026/pyenv /var/pyenv'"
 done
-to loop over all IP addresses to mount
