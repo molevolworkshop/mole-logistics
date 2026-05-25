@@ -201,13 +201,13 @@ If you’re standing in the lobby of Swope facing the front desk, head to the do
 
 You might want to shake the cooler around a bit to distribute the ice throughout it. Once you’re satisfied, you can just bring the cooler over to the break setup area and leave it there.
 
-In 2026, Sodexo required that we inform them every time we used the cooler. I was able to talk to Steven Allen (steven.allen@sodexo.com) and set up two times (10am and 4pm) that employees would be present to allow me to get ice. This later changed to emailing the company (at Dining@mbl.edu) the day before each day of the workshop to allow me to get ice. I would suggest emailing the company ahead of the first workshop day to define how and when you are going to get ice during the workshop. I would also suggest asking whoever you talk to to communicate with the rest of the staff so they know why you are there. 
+In 2026, Sodexo required that we inform them every time we used the cooler. I was able to talk to Steven Allen (steven.allen@sodexo.com) and set up two times (10am and 4pm) that employees would be present to allow me to get ice. This later changed to emailing the company (at Dining@mbl.edu) the day before each day of the workshop to allow me to get ice. I would suggest emailing the company ahead of the first workshop day to define how and when you are going to get ice during the workshop. 
 
 What worked for me was collecting ice in the 5 gallon water jug at 10 am (which then remained cold the rest of the day), draining the two previous coolers (only some of the ice melts over night), moving the ice from the soft drink coller to the alcohol cooler, and then filling the alcohol cooler at 4 pm with enough ice to also top off the soft drinks cooler at this time. This gave me ice for the whole day and into the social hours. It goes without saying, keep the cooler ice (dirty) and water ice (drinkable) separate to prevent contamination.
 
 ### Draining the cooler
 
-You can drain the cooler out on any reasonable grassy location around campus, using the plug located on its back. I like to empty out the leftover cans, etc. onto paper towels and leave them to dry overnight (if you don’t have a place to store stuff outside of a classroom, you should be able to store them in Lillie 338 or 302).
+You can drain the cooler out on any reasonable grassy location around campus, using the plug located on its back. I like to empty out the leftover cans, etc. onto paper towels and leave them to dry overnight (if you don’t have a place to store stuff outside of a classroom, you should be able to store them in Lillie 338 or 302). I often found myself draining each cooler 2-3 times a day.
 If you end up storing coolers, etc. in Lillie: I like to drain the coolers outside on the grassy area behind Lillie because there usually aren’t people around to watch me flail about trying pick up a cooler multiple times, but the world is your oyster or whatever so do what you want.
 
 ### Cleaning the cooler
@@ -236,23 +236,23 @@ Sprite                 | 7.5                       |  58 |
 
 MOLE 2026 was a bit larger than average, so here is another reference:
 
-_Drink Type_             | Cans Consumed | _Snack Type_     | Amount Consumed |
------------------------|---------------|----------------|-----------------|
-Caprisun (pouches)     |               |Sandwich Crackers|   |
-Polar Seltzer          |    | Cookies (oreos, ginger snaps) |
-Root Beer              |    | Chip Bags |
-Bubly                  |    |Bars (e.g cereal, granola) |
-Arizona Tea            |    |Fruit |  
-Diet Coke              |    | Cheezits|
-Coke Zero              |    | Popcorn |
-Coke Original          |    | Diced Fruit |
-La Croix               |    | Gummy Fruit Snacks |
-Spindrift              |    | Gold Fish |
-Sprite                 |
-Canada Dry             |      
-Total cans |  |                                         
+_Drink Type_             | Cans Consumed | _Snack Type_     | Amount Consumed | _Creamers_       | Amount Consumed |
+-----------------------|---------------|--------------------|-----------------|------------------|-----------------|
+Caprisun (pouches)     | 40            |Sandwich Crackers   | 58 sleeves      |Oat Milk          | 3.5 gallons     |
+Polar Seltzer          | 72            | Cookies (e.g oreos)| 3 boxes         |Almond Milk       | 2.5 gallons     |
+Root Beer              | 24            | Chip Bags          | 22 Family Size  |Whole Milk        | 1 quart         |
+Bubly                  | 48            |Cereal/Granola Bars | 136             |1/2 and 1/2       | 1 gallon        |
+Arizona Tea            | 36            |Fruit (bags/bunches)| 11              |Lactose-Free Milk | 0.5 gallons     |
+Diet Coke              | 48            | Cheezits           | 2               |Powdered Creamer  | 1 16oz container|
+Coke Zero              | 36            | Popcorn            | 3 bags          |Sweet Cream       | 4 quarts        |
+Coke Original          | 36            | Diced Fruit        | 24 cups         |2% Milk           | 1 quart         | 
+La Croix               | 48            | Gummy Fruit Snacks | 64 bags         |Small Creamer Cups| 136             |
+Spindrift              | 8             | Gold Fish          | 2 lbs           |
+Sprite                 | 48
+Canada Dry             | 36     
+Total cans             | 480 |                                         
 
-Note: I didn't get any water bottles since I used the 5 gallon water jug to supply water with red solo cups.
+Note: I didn't get any water bottles since I used the 5 gallon water jug to supply water with red solo cups. Also, these are going to differ a lot based on what is available in future years, what people like, and costs, so focus most on the total cans number and the overall picture.
 
 ## Hot Water Kettle (for tea/hot chocolate)
 
