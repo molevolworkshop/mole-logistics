@@ -61,6 +61,19 @@ Contact them well in advance (~1 month) to ensure they have capacity for printin
 Also, ask the latest date that they would need to have designs in by to ensure partipants can have shirts by course end; this will dictate the turnaround time for t-shirt designs and voting.
 Inquire on desired colours. 
 
+##T-shirt protocol (updated by SM 2026)
+
+Two weeks ahead: call Kaleidoscope to make a plan. You will meet Carolynn and Annie. This year they said yes to working within the course timeline! (whereas last year we called after the course started and they said no.) The plan has 3 parameters: (1) date we send them [number of shirts, size distribution, and color], (2) date we send them the final artwork, (3) date they finish the shirts. We agreed on the following timeline: (1) on the morning of the second full day of the course, (2) at 4pm on the fourth full day of the course, and (3) on the afternoon of the last full day or morning of the last half-day. This means you need to:
+Day 0: announce the t-shirt design competition at the welcome reception!
+Day 1: make a survey asking for shirt size and color preference, announce this and share the link in the morning, and remind throughout the day so you can email Kaleidoscope that night. This survey historically also has lobster poll and dietary needs for lobster dinner. You will also have to email faculty and pester them. You will probably have to track down individuals and/or guess. ALTERNATELY: in discussions with Kaleidoscope, they mentioned it would be easier for them to have the t-shirt sizes far ahead of time so they can buy them ahead, and this will also simplify your life. Therefore, next year we should ask for shirt sizes during course registration, and make an executive decision about fabric color ahead of time. With either method, always order some extra; this year I did 2 each of S, M, L, and 1 XL. Faculty like to bring them home for spouses etc. This first day you also announce and hype up the design competition, which will close at midnight of the third day.
+Days 2-3: continue to hype the design competition, chatter with people who are thinking about submitting a design, etc. Create a slack channel or other mechanism for submissions. Submissions close at midnight on the third day. And once you send Kaleidoscope a list of sizes, they will send you an invoice which you can send to the MBL (currently Jenn Martin jmartin at mbl.edu) to start the process of generating a PO. 
+Day 4: compile submissions, make a voting form, and run the poll! Close the poll at least a few hours before Kaleidoscope's deadline, ask the winner for a high-quality file of their art, and send to Kaleidoscope. Finalize ink color if you haven't already (can be an executive decision or vote/consensus). I waited til the design was chosen to pick ink color, but Kaleidoscope doesn't mix ink or doesn't do it quickly, so if you have an idea, ask two weeks ahead.
+Day 9: pick up the shirts! I think at this point Kaleidoscope will give you a final invoice to send to Jenn who will fill the PO. Distribute the shirts to happy MOLEs.
+
+Email solomon.mcshea at ucsf.edu for:
+Historical faculty t-shirt size preferences if needed in a pinch
+Google form templates (t-shirt size & lobster survey, t-shirt design competition ballot, and IQ-TREE quiz)
+
 # Set up at MOLE
 
 ## Inventory Materials
