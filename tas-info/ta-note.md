@@ -7,6 +7,7 @@ Might also be good to briefly look at the `course-assistant-handbook`.
 
 # Roles and Responsibilities
 - Test lab tutorials
+- Update faculty slides and links in schedule 
 - Run some labs and sessions
 	- Introduction to computer setup
 	- Allignment lab
@@ -69,17 +70,16 @@ Gather MOLE materials from wherever they are stored and take stock of things tha
 Stock low supplies, drinks, and snacks prior to course start.
 
 
-## Run designated labs and assist with others
-
-See notes below for oddities and things to be aware of with labs.
-
-
 ## Set up classroom
 The classroom should have enough tables/chairs to seat ~60 people. Also, make sure that tables are connected to electricity and that cables aren't a trippjng hazard. 
 Stock classroom with batteries (AA for mic, AAA for laser pointers if desired), markers and dry erase fluid. 
 
 
 # During MOLE
+
+## Run designated labs and assist with others
+
+See notes below for oddities and things to be aware of with labs.
 
 
 ## T-shirts
