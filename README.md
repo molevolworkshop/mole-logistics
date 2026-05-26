@@ -7,6 +7,7 @@ Important things for MOLE 2027:
 - buy 20 ~3x2 name tag holders
 - reserve space for opening reception and lobster dinner earlier (Meigs?)
 - need to buy a new coffee percolator (and maybe have it shipped to Maia before the workshop starts)
+- per conversations with Linda/Cheryl, they will check if we can stay in MBL Club until midnight and if we could have a fridge there (to avoid moving drinks back and forth)
 
 Information about setting up virtual machines in `virtual-machines` folder.
 
