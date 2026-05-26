@@ -218,3 +218,8 @@ passwd moleuser
 8. Mention to utilize `tab` to autocomplete commands.
 
 
+### Tree Comparison lab
+
+Accessing some of the materials from the Open Tree of Life are either slow are break (both the website and the API). 
+It's an issue with the database rebuilding after certain actions, making the first calls to the site slow. Getting things built prior to the lab will cause the actions to be a bit faster.
+Last year Emily Jane McTavish ran this lab, get in cahoots with her (or whoever runs the lab) if this is still an issue or if it is encountered when testing the labs. 
