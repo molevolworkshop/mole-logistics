@@ -5,6 +5,8 @@ Important things for MOLE 2027:
 - Add a session after the (optional) ethics where faculty/participants present the types of activites they have worked on to move the needle and have an impact in the state of the world
 - Consider moving Joe's first part of lecture earlier (1st day?)
 - buy 20 ~3x2 name tag holders
+- reserve space for opening reception and lobster dinner earlier (Meigs?)
+- need to buy a new coffee percolator (and maybe have it shipped to Maia before the workshop starts)
 
 Information about setting up virtual machines in `virtual-machines` folder.
 
