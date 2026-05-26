@@ -93,7 +93,9 @@ Also, I have found that people enjoy variety, so if possible, switch up some of 
     - The students also seem to really enjoy cereal bars
 3. Fruits (e.g. clementines, bananas, apples)
 
-The rest of this guide assumes your breaks will only feature drinks; however, your course’s directors might want you to get snacks for the breaks as well. If you need to go get snacks, there’s a Walmart in Falmouth where you can purchase things like bags of chips and granola bars cheaply. Note: You can purchase course materials with your allotted ``petty cash,'' which you can obtain from the Homestead Building. Talk to Cheryl Gherst for more information. Also, there’s a Stop \& Shop in Falmouth where you can purchase fruits. Note: I don’t remember if the Walmart had fruits, but I feel like Stop \& Shop is probably a safer bet for those. The Stop \& Shop also has lots of snacks available, but when I went they seemed a bit pricier than Walmart (so I’d suggest going to both stores, if you can). The Walmart doesn't have any milk (2026), so I found myself going to the Aldis near Kappy's to get fresh fruit and milk. This store is also cheaper than Walmart.
+The rest of this guide assumes your breaks will only feature drinks; however, your course’s directors might want you to get snacks for the breaks as well. If you need to go get snacks, there’s a Walmart in Falmouth where you can purchase things like bags of chips and granola bars cheaply. Note: You can purchase course materials with your allotted ``petty cash,'' which you can obtain from the Homestead Building. Talk to Cheryl Gherst for more information. Also, there’s a Stop \& Shop in Falmouth where you can purchase fruits. Note: I don’t remember if the Walmart had fruits, but I feel like Stop \& Shop is probably a safer bet for those. The Stop \& Shop also has lots of snacks available, but when I went they seemed a bit pricier than Walmart (so I’d suggest going to both stores, if you can). The Walmart doesn't have any vegan milk (2026), so I found myself going to the Aldis near Kappy's to get fresh fruit and milk. This store is also cheaper than Walmart.
+
+Make sure there are vegan- and allergen-free options for workshop attendees. I found that people, in general, prefered the non-dairy milk (which also worked as lactose free) so getting a majority oat/almond milk creamers is best. A lot of snacks have trace dairy products, so do your best to watch out for this. Some options are: poptarts, fruit, oreos, some corn chips, takis, fritos, etc. *Please add/remove items from this list as time goes on.*
 
 #### Limitations on what you have ready for breaks
 
@@ -103,7 +105,7 @@ For STAMPS 2018, for example, I only brought out the cooler with sodas/waters fo
 
 ## Getting things ready for breaks
 
-First off: don’t worry! This might sound like a large amount of stuff to be responsible for, and it kind of is, but once you get into a routine it becomes a bit more manageable.
+First off: don’t worry! This might sound like a large amount of stuff to be responsible for, and it kind of is, but once you get into a routine it becomes a bit more manageable. 
 
 The next section will talk about how you’ll go about getting stuff ready for the breaks.
 
@@ -118,6 +120,8 @@ The course coffee urn was purchased by Mark Holder, who was the director of the 
 The coffee maker’s manual is probably your best source of information on using it. 
 
 You’ll generally have to make coffee each day of the course. The coffee maker takes around one minute per cup (plus the time taken to start the brewing/percolating process, which I think is about 8 minutes max), so if you’re making 60 cups of coffee then you should budget 68 minutes for the coffee maker to run to completion. (So if you’re trying to have 60 cups of coffee ready for a 10:15am break, you should **start the coffee maker at about 9am!**).
+
+As of the last day of MOLE 2026, the WestBend L5613F large capacity coffeemaker has been retired due to a an electrical failure. A new percolator will be bought before MOLE 2027, but as of 5/26/26, I do not know yet what model it will be. I will leave the above description, as it will likely work in similiar ways. Feel free to delete and edit this section once the new percolator is purchased and used.
 
 #### How much coffee do I need to make/get
 
@@ -201,7 +205,7 @@ If you’re standing in the lobby of Swope facing the front desk, head to the do
 
 You might want to shake the cooler around a bit to distribute the ice throughout it. Once you’re satisfied, you can just bring the cooler over to the break setup area and leave it there.
 
-In 2026, Sodexo required that we inform them every time we used the cooler. I was able to talk to Steven Allen (steven.allen@sodexo.com) and set up two times (10am and 4pm) that employees would be present to allow me to get ice. This later changed to emailing the company (at Dining@mbl.edu) the day before each day of the workshop to allow me to get ice. I would suggest emailing the company ahead of the first workshop day to define how and when you are going to get ice during the workshop. 
+In 2026, Sodexo required that we inform them every time we used the ice machine, likely due to stricter health regulations. You will likely need to email the company (at Dining@mbl.edu) the day before each day of the workshop to allow me to get ice. I was able to set up a system with Sodexo to allow me to get ice at 10am and 4pm every day of the workshop. I would suggest emailing the company ahead of the first workshop day to define how and when you are going to get ice. They will likely tell you how they prefer meeting with you, but if not, I found that talking to someone at the front desk of Swope was the best way to contact Sodexo, as the docking bay, cafe, and dining halls didn't always have staff present.
 
 What worked for me was collecting ice in the 5 gallon water jug at 10 am (which then remained cold the rest of the day), draining the two previous coolers (only some of the ice melts over night), moving the ice from the soft drink coller to the alcohol cooler, and then filling the alcohol cooler at 4 pm with enough ice to also top off the soft drinks cooler at this time. This gave me ice for the whole day and into the social hours. It goes without saying, keep the cooler ice (dirty) and water ice (drinkable) separate to prevent contamination.
 
@@ -240,25 +244,24 @@ _Drink Type_             | Cans Consumed | _Snack Type_     | Amount Consumed | 
 -----------------------|---------------|--------------------|-----------------|------------------|-----------------|
 Caprisun (pouches)     | 40            |Sandwich Crackers   | 58 sleeves      |Oat Milk          | 3.5 gallons     |
 Polar Seltzer          | 72            | Cookies (e.g oreos)| 3 boxes         |Almond Milk       | 2.5 gallons     |
-Root Beer              | 24            | Chip Bags          | 22 Family Size  |Whole Milk        | 1 quart         |
-Bubly                  | 48            |Cereal/Granola Bars | 136             |1/2 and 1/2       | 1 gallon        |
+Root Beer              | 36            | Chip Bags          | 24 Family Size  |Whole Milk        | 1 quart         |
+Bubly                  | 48            |Cereal/Granola Bars | 136             |1/2 and 1/2       | 1.5 gallons     |
 Arizona Tea            | 36            |Fruit (bags/bunches)| 11              |Lactose-Free Milk | 0.5 gallons     |
-Diet Coke              | 48            | Cheezits           | 2               |Powdered Creamer  | 1 16oz container|
+Diet Coke              | 60            | Cheezits           | 2               |Powdered Creamer  | 1 16oz container|
 Coke Zero              | 36            | Popcorn            | 3 bags          |Sweet Cream       | 4 quarts        |
 Coke Original          | 36            | Diced Fruit        | 24 cups         |2% Milk           | 1 quart         | 
 La Croix               | 48            | Gummy Fruit Snacks | 64 bags         |Small Creamer Cups| 136             |
 Spindrift              | 8             | Gold Fish          | 2 lbs           |
-Sprite                 | 48
+Sprite                 | 60
 Canada Dry             | 36     
-Total cans             | 480 |                                         
+Total cans             | 516 |                                         
 
-Note: I didn't get any water bottles since I used the 5 gallon water jug to supply water with red solo cups. Also, these are going to differ a lot based on what is available in future years, what people like, and costs, so focus most on the total cans number and the overall picture.
+*Note: I didn't get any water bottles since I used the 5 gallon water jug to supply water with red solo cups. Also, these are going to differ a lot based on what is available in future years, what people like, and costs, so focus most on the total cans number and the overall picture.*
 
 ## Hot Water Kettle (for tea/hot chocolate)
 
 Both MOLE and STAMPS had a fair share of people who preferred tea (or hot chocolate) to coffee, sometimes rather vocally. So accommodating those people is a good idea.
-Martha’s office has a hot water kettle you can use. Assuming it hasn’t been replaced by the time you’re reading this, it’s a Chef’sChoice cordless electric kettle, model number 688. Using the kettle should be a fairly self-explanatory process. You can also find its manual online. One thing I’d suggest is to monitor the water level gauge on the side of the kettle -- if you fill it up beyond the MAX level, then water can leak out, which is bad. So, uh, don’t
-do that.
+Martha’s office has a hot water kettle you can use. Assuming it hasn’t been replaced by the time you’re reading this, it’s a Chef’sChoice cordless electric kettle, model number 688. Using the kettle should be a fairly self-explanatory process. You can also find its manual online. One thing I’d suggest is to monitor the water level gauge on the side of the kettle -- if you fill it up beyond the MAX level, then water can leak out, which is bad. So, uh, don’t do that.
 
 ### Preparing lots of hot water
 
