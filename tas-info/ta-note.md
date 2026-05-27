@@ -7,6 +7,7 @@ Might also be good to briefly look at the `course-assistant-handbook`.
 
 # Roles and Responsibilities
 - Test lab tutorials
+- Update faculty slides and links in schedule 
 - Run some labs and sessions
 	- Introduction to computer setup
 	- Allignment lab
@@ -77,17 +78,16 @@ Designs must have the following information:
 Gather MOLE materials from wherever they are stored and take stock of things that are missing/low in number. See materials sheet for items that have been used during the workshop.
 Stock low supplies, drinks, and snacks prior to course start.
 
-
-## Run designated labs and assist with others
-See notes below for oddities and things to be aware of with labs.
-
-
 ## Set up classroom
 The classroom should have enough tables/chairs to seat ~60 people. Also, make sure that tables are connected to electricity and that cables aren't a trippjng hazard. 
 Stock classroom with batteries (AA for mic, AAA for laser pointers if desired), markers and dry erase fluid. 
 
 
 # During MOLE
+
+## Run designated labs and assist with others
+
+See notes below for oddities and things to be aware of with labs.
 
 
 ## Lobster Boil 
@@ -188,3 +188,8 @@ passwd moleuser
 8. Mention to utilize `tab` to autocomplete commands.
 
 
+### Tree Comparison lab
+
+Accessing some of the materials from the Open Tree of Life are either slow are break (both the website and the API). 
+It's an issue with the database rebuilding after certain actions, making the first calls to the site slow. Getting things built prior to the lab will cause the actions to be a bit faster.
+Last year Emily Jane McTavish ran this lab, get in cahoots with her (or whoever runs the lab) if this is still an issue or if it is encountered when testing the labs. 
