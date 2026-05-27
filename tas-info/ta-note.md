@@ -25,10 +25,9 @@ Might also be good to briefly look at the `course-assistant-handbook`.
 # Before MOLE
 
 ## Updating profile on the website
-Once TAs get access (granted by the director(s)) to contribute to the GitHub repository of the MOLE website, the profiles of TAs/instructors available in `faculty` folder in the repository [https://github.com/molevolworkshop/molevolworkshop.github.io/tree/master/faculty] can be edited -- good idea to keep the information up-to-date.
+Once TAs get access (granted by the director(s)) to contribute to the GitHub repository of the MOLE website, the profiles of TAs/instructors available in `faculty` folder in the [repository] (https://github.com/molevolworkshop/molevolworkshop.github.io/tree/master/faculty) can be edited -- good idea to keep the information up-to-date.
 
 ## Check course materials sheet 
-
 Ensure items used during the course are accounted for (either in storage or somebody is bringing).
 Might be good to have somebody bring a portable speaker. 
 
@@ -54,35 +53,32 @@ During the workshop, TAs have historically been responsible to lead four 90-minu
 Consult with the course directors to ensure this is still the expectation.
 Make sure at least one TA is responsible for each lab and ready to lead by course start.
 
-## Get in cahoots with t-shirt printer
-
-We have worked with (Kaleidoscope Imprints)[https://www.kaleidoscopeimprints.com/] in the past.
-Contact them well in advance (~1 month) to ensure they have capacity for printing/ cost estimates.
-Also, ask the latest date that they would need to have designs in by to ensure partipants can have shirts by course end; this will dictate the turnaround time for t-shirt designs and voting.
-Inquire on desired colours. 
-
 ## Full t-shirt protocol (updated by SM 2026)
+- 2ish months out: as part of, or contemporaneous with, course registration, collect t-shirt sizes from all participants, TAs, CA, and faculty. Make an executive deicision on fabric color :) and then get in cahoots with the print shop, [Kaleidoscope Imprints] (https://www.kaleidoscopeimprints.com/). You will meet Carolynn and Annie. Make a plan with them, and give them the order volume: one shirt for everyone plus extras: I did 2 each of S, M, L, and 1 XL. Besides the volume, the plan has two parameters: (1) the date we send them the final artwork and (2) the date they finish the shirts. In 2026, we agreed to send them the shirts at 4pm on the fourth full day of the course, and for them to finish the shirts on the afternoon of the last full day. If you are really charming maybe you can extend the design deadline by one day. This is also the time to ask about having both front and back (recently they've said they can only do front on our timeline, but both would be so nice). Anyway, here's a possible timeline:
+- Day 0: announce the t-shirt design competition at the welcome reception! Post the design guidelines in the slack:
+Designs must have the following information:
+* "N^th (e.g., 35th) Workshop on Molecular Evolution"
+* "Marine Biological Laboratory, Woods Hole, MA"
+* "Current year"
+* Preferrably related to the contents covered
+* In high quality, with no excessively thin lines (printing will be difficult)
+* One color, halftones ok
+* Examples: https://molevolworkshop.github.io/tshirts/ 
+- Days 1-3: continue to hype the design competition, chatter with people who are thinking about submitting a design, etc. Create a slack channel or other mechanism for submissions. Submissions close at midnight on the third day. And once you send Kaleidoscope a list of sizes, they will send you a quote/invoice which you can send to the MBL (currently Jenn Martin jmartin at mbl.edu) to start the process of generating a PO. 
+- Day 4: compile art submissions, make a voting form, and run the poll! Close the poll at least a few hours before Kaleidoscope's deadline, ask the winner for a high-quality file of their art, and send to Kaleidoscope. Finalize ink color if you haven't already (can be an executive decision or vote/consensus). I waited til the design was chosen to pick ink color, but Kaleidoscope doesn't mix ink or doesn't do it quickly, so if you have a vision, ask Kaleidoscope when deciding on fabric color.
+	 - [Template voting form] (https://docs.google.com/forms/d/1efGeF_Bjw7iGuq1cT2hwIpeplghzQaEASEzthQxdTPs/edit)
+- Day 9: pick up the shirts (ask the CA to pick up the shirts)! Kaleidoscope will send you a final invoice to send to Jenn who will fill the PO. Distribute the shirts to happy MOLEs (one-by-one rather than a free-for-all, to ensure everyone gets what they ordered). Some faculty or participants have probably left early, you will need to get mailing addresses for those people (or make a plan to meet up with them at Evolution).
 
-At least two weeks ahead: call Kaleidoscope to make a plan. You will meet Carolynn and Annie. This year they said yes to working within the course timeline! (whereas last year we called after the course started and they said no.) The plan has 3 parameters: (1) date we send them [number of shirts, size distribution, and color], (2) date we send them the final artwork, (3) date they finish the shirts. We agreed on the following timeline: (1) on the morning of the second full day of the course, (2) at 4pm on the fourth full day of the course, and (3) on the afternoon of the last full day or morning of the last half-day. This means you need to:
-- Day 0: announce the t-shirt design competition at the welcome reception!
-- Day 1: make a survey asking for shirt size and color preference, announce this and share the link in the morning, and remind throughout the day so you can email Kaleidoscope that night. This survey historically also has lobster poll and dietary needs for lobster dinner. You will also have to email faculty and pester them (although email solomon.mcshea at ucsf.edu for historical faculty size preferences if needed). You will probably have to track down individuals and/or guess. ALTERNATELY: in discussions with Kaleidoscope, they mentioned it would be easier for them to have the t-shirt sizes far ahead of time so they can buy them ahead, and this will also simplify your life. Therefore, next year we should ask for shirt sizes during course registration, and make an executive decision about fabric color ahead of time. With either method, always order some extra; this year I did 2 each of S, M, L, and 1 XL. Faculty like to bring them home for spouses etc. This first day you also announce and hype up the design competition, which will close at midnight of the third day.
-	- (Template size/lobster survey form) [https://docs.google.com/forms/d/1jfmHE40X8XahRs1rNq8RPI4rld9_gi5DlUJKsbCNGUM/edit]
-- Days 2-3: continue to hype the design competition, chatter with people who are thinking about submitting a design, etc. Create a slack channel or other mechanism for submissions. Submissions close at midnight on the third day. And once you send Kaleidoscope a list of sizes, they will send you an invoice which you can send to the MBL (currently Jenn Martin jmartin at mbl.edu) to start the process of generating a PO. 
-- Day 4: compile submissions, make a voting form, and run the poll! Close the poll at least a few hours before Kaleidoscope's deadline, ask the winner for a high-quality file of their art, and send to Kaleidoscope. Finalize ink color if you haven't already (can be an executive decision or vote/consensus). I waited til the design was chosen to pick ink color, but Kaleidoscope doesn't mix ink or doesn't do it quickly, so if you have an idea, ask two weeks ahead.
-	 - (Template voting form) [https://docs.google.com/forms/d/1efGeF_Bjw7iGuq1cT2hwIpeplghzQaEASEzthQxdTPs/edit]
-- Day 9: pick up the shirts! I think at this point Kaleidoscope will give you a final invoice to send to Jenn who will fill the PO. Distribute the shirts to happy MOLEs.
-
+- Historical note: in 2026, Carolynn from Kaleidoscope suggested that we ask for t-shirt sizes ahead of time to make their and our lives easier, so that's what I've outlined above. But here's what we did that year: make a survey on Day 1 asking for shirt size and color preference, announce this and share the link in the morning, and remind throughout the day so you can email Kaleidoscope that night. This survey historically also has lobster poll and dietary needs for lobster dinner. You will also have to email faculty and pester them (although email solomon.mcshea at ucsf.edu for historical faculty size preferences if needed). You will probably have to track down individuals and/or guess.
 
 # Set up at MOLE
 
 ## Inventory Materials
-
 Gather MOLE materials from wherever they are stored and take stock of things that are missing/low in number. See materials sheet for items that have been used during the workshop.
 Stock low supplies, drinks, and snacks prior to course start.
 
 
 ## Run designated labs and assist with others
-
 See notes below for oddities and things to be aware of with labs.
 
 
@@ -94,36 +90,10 @@ Stock classroom with batteries (AA for mic, AAA for laser pointers if desired), 
 # During MOLE
 
 
-## T-shirts
-
-In the first day mention t-shirts and start soliciting design submissions. 
-Shirt designs should ideally have the following information:
-* ``Marine Biological Laboratory, Woods Hole, MA"
-* ``N^th (e.g., 35th) Workshop on Molecular Evolution"
-* ``Current year"
-* Preferrably related to the contents covered
-* In high quality, with no excessively thin lines (printing will be difficult)
-* Examples: https://molevolworkshop.github.io/tshirts/ 
-
-You will also need to get t-shirt size information (if not a part of application materials).
-This has historically been done in conjunction with the lobster dinner inquiry in the form a google form.
-As a template, an editable/copyable form can be found (here)[https://docs.google.com/forms/d/1jfmHE40X8XahRs1rNq8RPI4rld9_gi5DlUJKsbCNGUM/edit].
-
-
-Creating a t-shirt channel on slack has worked nicely for submitting ideas. 
-Close submissions 12 to 18 hours prior to the order deadline from the t-shirt company to allow voting. 
-Create a ranked choice form for voting. 
-
-Order extra t shirts because there will be some problems with the number of t-shirts and sizes.
-People take different size t-shirts from what they input. 
-Make sure to check the number of t-shirts in different sizes matches with the number we ordered.
-Adittionally, to ensure everybody gets what they ordered, it is better to distribute one by one by checking the spreadsheet instead of a free-for-all.
-
-
 ## Lobster Boil 
-
 We need to know how many people want lobster/dietary restrictions for the lobster dinner.
-This information is usually acquired in conjunction with the t-shirt size inquiry, see above.
+Because this information was historically acquired in conjunction with the t-shirt sizes, the editable survey below still has the shirt stuff:
+- [Template size/lobster survey form] (https://docs.google.com/forms/d/1jfmHE40X8XahRs1rNq8RPI4rld9_gi5DlUJKsbCNGUM/edit)
 
 ## Set up/tear down evening social
 
@@ -173,8 +143,8 @@ and `eduroam`.
 Before the Intro Computing lab, TAs place one of each green (or blue/yellow) and pink post-it at each participant's desk. This is one good way to promote communication between the TAs and the participants on how they are doing during the tutorial. Green post-it means the participant is complete with the given task and pink means that they need a help. They can stick the post-it on top of their labtop or at the edge of the table, whichever easily visible by the TAs. Note the post-its are not provided by MBL.
 
 ### IQ-TREE set-up
-- You can use the IQ-TREE lab from a past year or add a modified lab to the IQ-TREE docs following (these)[https://github.com/iqtree/iqtree.github.io] instructions for pull requests. I (SM) also emailed Minh Bui (mbui at anu.edu.au) when I submitted the pull requests. He created the lab originally and is happy to hear about the workshop and help out.
-- (Editable IQ-TREE quiz) [https://docs.google.com/forms/d/1EhSr0vCXD8fw-_cppnzAy4MNDC5fOyUI4Z_htibHnN8/edit]
+- You can use the IQ-TREE lab from a past year or add a modified lab to the IQ-TREE docs following [these] (https://github.com/iqtree/iqtree.github.io) instructions for pull requests. I (SM) also emailed Minh Bui (mbui at anu.edu.au) when I submitted the pull requests. He created the lab originally and is happy to hear about the workshop and help out.
+- [Editable IQ-TREE quiz] (https://docs.google.com/forms/d/1EhSr0vCXD8fw-_cppnzAy4MNDC5fOyUI4Z_htibHnN8/edit)
 
 ### Some (unexpected) confusions during the lab
 1. Setting the VM passwords confused some participants. Although it is straighforward once understand how it works, it would nice to list steps more specifically. For example:
