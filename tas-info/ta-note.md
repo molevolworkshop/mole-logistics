@@ -97,8 +97,8 @@ Because this information was historically acquired in conjunction with the t-shi
 
 ## Set up/tear down evening social
 
-The past year we used the MBL club for social outings in the evenings. If using MBL club, alcohol needs to stay in MLB club. 
-Drinks are not covered by MBL, so we have solicited dollars from folks (give big puppy-dog eyes towards senior faculty, they're often generous) to pay for alcohols.
+The past year we used the MBL club for social outings in the evenings. If using MBL club, alcohol needs to stay in MBL club. 
+Drinks are not covered by MBL, so we have solicited dollars from folks (give big puppy-dog eyes towards senior faculty, they're often generous) to pay for alcohols. If needed, in the past we have made a sign with someone's venmo on it to put on/near the cooler, and made an announcement.
 
 ### Set up
 - Check snack  drinks (both NA and NNA) supply perhaps around dinner
