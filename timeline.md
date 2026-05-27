@@ -36,6 +36,15 @@
     - email Maia Theophanis (mtheophanis@mbl.edu) for the MOLE supplies: large coffee percolator, electric kettles, 1-2 folding tables and coolers, name tag holders
 - First day:  
     - unshelve all the VMs; keep them running all the time
-- At the end of the workshop: shelve and lock all VMs; then delete them after a couple of weeks
+- Last day announcements:
+    - shelving (and eventually deletion) of VMs
+    - after the workshop ends:
+        - continuing the learning process, and to assist we will try to move the slack to discord and maybe schedule some office hours some time later in the summer
+        - if there are papers coming out of this workshop, please acknowledge MBL
+        - help us advertise to your networks if this was a positive experience
+    - TA interest form
+- At the end of the workshop: 
+    - shelve and lock all VMs; then delete them after a couple of weeks
+    - move slack to discord
 
 
