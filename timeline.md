@@ -1,6 +1,6 @@
 # Timeline for MOLE 2027
 
-- Request extension ACCESS on July 20, 2026 [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
+[x] Request extension ACCESS on July 20, 2026 [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
 - August/Sept 2026 -> get the workshop dates for next year from MBL
     - Update website: https://github.com/molevolworkshop
     - Invite faculty: [Schedule](https://docs.google.com/spreadsheets/d/1GyNeKDyaUH_uL2mc98ovRE7poyuP7QmhQUBnvOjN5zU/edit?usp=sharing)
