@@ -18,6 +18,7 @@
     - Review applications in Slate (current co-directors and future co-director)
         - MBL contact person: Sung Bin Park (spark@mbl.edu)
 - March 2027:
+    - Find a course assistant (CA) in UConn or close universities
     - Email catering@mbl.edu about food for opening reception and course lobster dinner
         - In 2026, these emails were redirected to Alexander.Platika@sodexo.com aplatika@mbl.edu and Steven.Allen@sodexo.com
         - mention that all of our guests are on the dining plan, since they're staying on campus. Jenn Martin said that the cost of the opening reception and lobster boil should be reduced by the cost of the dinners that the event is replacing.
@@ -36,6 +37,7 @@
         - buy 20 ~3x2 name tag holders
     - email Maia Theophanis (mtheophanis@mbl.edu) for the MOLE supplies: large coffee percolator, electric kettles, 1-2 folding tables and coolers, name tag holders
         - need to buy a new coffee percolator (and maybe have it shipped to Maia before the workshop starts)
+- During the workshop: see [day2day-director.md](day2day-director.md) for day-to-day things to watch (social space, course photo, reimbursements, certificates)
 - First day:  
     - unshelve all the VMs; keep them running all the time
 - Last day announcements:
