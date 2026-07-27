@@ -6,6 +6,10 @@
     - Invite faculty: [Schedule](https://docs.google.com/spreadsheets/d/1GyNeKDyaUH_uL2mc98ovRE7poyuP7QmhQUBnvOjN5zU/edit?usp=sharing)
     - Email Cheryl Gherst (cgherst@mbl.edu) to ask her to update the MOLE flyer
     - Advertise workshop (usual deadline end of January)
+- December 2026:
+    - Email Cheryl Gherst (cgherst@mbl.edu) to reserve MBL Club (Meigs?) for opening reception (5:30-9) and lobster dinner
+    - Reserve MBL Club for socials
+        - per conversations with Linda/Cheryl, they will check if we can stay in MBL Club until midnight and if we could have a fridge there (to avoid moving drinks back and forth)
 - January 2027: 
     - begin process to create master VM: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
     - we get the budget from Jenn Martin (jmartin@mbl.edu)
@@ -14,15 +18,11 @@
     - Review applications in Slate (current co-directors and future co-director)
         - MBL contact person: Sung Bin Park (spark@mbl.edu)
 - March 2027:
-    - Email Cheryl Gherst (cgherst@mbl.edu) to reserve MBL Club for opening reception (5:30-9p)
     - Email catering@mbl.edu about food for opening reception and course lobster dinner
         - In 2026, these emails were redirected to Alexander.Platika@sodexo.com aplatika@mbl.edu and Steven.Allen@sodexo.com
         - mention that all of our guests are on the dining plan, since they're staying on campus. Jenn Martin said that the cost of the opening reception and lobster boil should be reduced by the cost of the dinners that the event is replacing.
-- One month before the start: 
-    - Send email to all faculty to:
-        1. confirm computer lab -> deadline two weeks before the start
-        2. update their information in website: https://github.com/molevolworkshop/molevolworkshop.github.io/tree/master/faculty
-        3. remind about the use of Figshare for slides
+- One month before the start (~April): 
+    - Create this year's faculty contribution tracking (board + one issue per faculty, from the confirmed roster) and notify faculty -- materials (slides + bio) and computer-lab confirmation are due **two weeks before the start**; see [faculty-contribution-system.md](faculty-contribution-system.md)
     - Confirm faculty/TA stipends with Jenn Martin (jmartin@mbl.edu)
 - Two weeks before start: 
     - create TAs VMs for everyone to check the computer labs: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
@@ -33,7 +33,9 @@
         - note they need to be shelved and locked
         - note it is worth checking the computer labs again (recall problems with mounting volume for python environment)
     - print name tags: follow information [here](https://github.com/molevolworkshop/mole-logistics/tree/main/name-tags)
+        - buy 20 ~3x2 name tag holders
     - email Maia Theophanis (mtheophanis@mbl.edu) for the MOLE supplies: large coffee percolator, electric kettles, 1-2 folding tables and coolers, name tag holders
+        - need to buy a new coffee percolator (and maybe have it shipped to Maia before the workshop starts)
 - First day:  
     - unshelve all the VMs; keep them running all the time
 - Last day announcements:
@@ -46,5 +48,4 @@
 - At the end of the workshop: 
     - shelve and lock all VMs; then delete them after a couple of weeks
     - move slack to discord
-
-
+    - freeze this year's materials: cut a GitHub Release (tag = the year) on moledata, the website, and mole-logistics: see [releasing.md](releasing.md)
