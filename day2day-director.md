@@ -9,3 +9,23 @@
 - Coordinate course certificates with Sung Bin
     - Sign them during the course
     - Distribute them at the end of the last full day
+
+
+# Welcome intro 
+
+- Introducing faculty
+- Course overview
+- A little course history
+- Advice about how to approach the workshop
+    - Bring the enthusiasm
+    - Seek out faculty with whom you have overlapping interests
+
+- T-shirts
+- VMs/IP Addresses
+- Orientation to MBL
+    - Stoney Beach
+    - Swope Cafe
+    - Classroom
+    - MBL Club
+
+- Reusable coffee cups
