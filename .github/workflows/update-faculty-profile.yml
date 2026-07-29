@@ -3,7 +3,7 @@ name: Sync Faculty Dropdown to Website
 on:
   push:
     paths:
-      - 'registry-data/faculty_registry.yml'
+      - 'registry-data/faculty-registry.yml'
 
 jobs:
   update-website-template:
@@ -23,14 +23,14 @@ jobs:
             const fs = require('fs');
             const yaml = require('js-yaml');
 
-            const registryFile = fs.readFileSync('registry-data/faculty_registry.yml', 'utf8');
+            const registryFile = fs.readFileSync('registry-data/faculty-registry.yml', 'utf8');
             const registry = yaml.load(registryFile);
             const facultyNames = ["-- Not Listed / Write-in Below --", ...registry.map(p => p.name)];
             const newOptionsYaml = facultyNames.map(name => `        - "${name}"`).join('\n') + '\n';
 
             const owner = 'molevolworkshop';
             const repo = 'molevolworkshop.github.io';
-            const path = '.github/ISSUE_TEMPLATE/faculty_profile.yml';
+            const path = '.github/ISSUE_TEMPLATE/faculty-profile.yml';
 
             let fileData;
             try {
