@@ -3,7 +3,7 @@ name: Sync Faculty Dropdown to Website
 on:
   push:
     paths:
-      - 'path/to/faculty_registry.yml' # Update to your actual path in this repo
+      - 'registry-data/faculty_registry.yml'
 
 jobs:
   update-website-template:
@@ -15,22 +15,18 @@ jobs:
       - name: Update and Push to Website Repo
         uses: actions/github-script@v7
         with:
-          # Use a GitHub PAT stored as a secret in mole-logistics 
-          # with write access to your website repo
           github-token: ${{ secrets.WEBSITE_REPO_PAT }}
           script: |
             const fs = require('fs');
             const yaml = require('js-yaml');
 
-            // 1. Read the registry from this repo
-            const registryFile = fs.readFileSync('path/to/faculty_registry.yml', 'utf8');
+            const registryFile = fs.readFileSync('registry-data/faculty_registry.yml', 'utf8');
             const registry = yaml.load(registryFile);
             const facultyNames = ["-- Not Listed / Write-in Below --", ...registry.map(p => p.name)];
             const newOptionsYaml = facultyNames.map(name => `        - "${name}"`).join('\n') + '\n';
 
-            // 2. Fetch the target issue template from your website repo
-            const owner = 'YOUR_GITHUB_USERNAME_OR_ORG';
-            const repo = 'YOUR_WEBSITE_REPO_NAME';
+            const owner = 'molevolworkshop';
+            const repo = 'molevolworkshop.github.io';
             const path = '.github/ISSUE_TEMPLATE/faculty_profile.yml';
 
             let fileData;
