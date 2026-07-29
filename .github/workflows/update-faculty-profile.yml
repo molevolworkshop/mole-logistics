@@ -44,11 +44,13 @@ jobs:
             const sha = fileData.data.sha;
 
             // 3. Replace the options block using regex
-            const regex = /(id: faculty_select[\s\S]*?options:\n)([\s\S]*?)(?=\n  - type:|\s*$)/;
+            const regex = /(id: faculty_select[\s\S]*?options:\n)([\s\S]*?)(?=\n\s+validations:|\n\s+- type:|\s*$)/;
             if (!regex.test(currentContent)) {
               console.error("Could not find faculty_select options block in the target template.");
               process.exit(1);
             }
+
+            const updatedContent = currentContent.replace(regex, `$1${newOptionsYaml}`);
 
             const updatedContent = currentContent.replace(regex, `$1${newOptionsYaml}`);
 
