@@ -49,9 +49,6 @@ jobs:
               console.error("Could not find faculty_select options block in the target template.");
               process.exit(1);
             }
-
-            const updatedContent = currentContent.replace(regex, `$1${newOptionsYaml}`);
-
             const updatedContent = currentContent.replace(regex, `$1${newOptionsYaml}`);
 
             // If nothing changed, skip committing
