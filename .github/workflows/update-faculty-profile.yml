@@ -12,7 +12,7 @@ jobs:
       - name: Checkout logistics repo
         uses: actions/checkout@v4
 
-     - name: Install js-yaml locally
+      - name: Install js-yaml locally
         run: npm install js-yaml
 
       - name: Update and Push to Website Repo
