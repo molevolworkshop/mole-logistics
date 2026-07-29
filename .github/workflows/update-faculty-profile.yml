@@ -1,0 +1,72 @@
+name: Sync Faculty Dropdown to Website
+
+on:
+  push:
+    paths:
+      - 'path/to/faculty_registry.yml' # Update to your actual path in this repo
+
+jobs:
+  update-website-template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout logistics repo
+        uses: actions/checkout@v4
+
+      - name: Update and Push to Website Repo
+        uses: actions/github-script@v7
+        with:
+          # Use a GitHub PAT stored as a secret in mole-logistics 
+          # with write access to your website repo
+          github-token: ${{ secrets.WEBSITE_REPO_PAT }}
+          script: |
+            const fs = require('fs');
+            const yaml = require('js-yaml');
+
+            // 1. Read the registry from this repo
+            const registryFile = fs.readFileSync('path/to/faculty_registry.yml', 'utf8');
+            const registry = yaml.load(registryFile);
+            const facultyNames = ["-- Not Listed / Write-in Below --", ...registry.map(p => p.name)];
+            const newOptionsYaml = facultyNames.map(name => `        - "${name}"`).join('\n') + '\n';
+
+            // 2. Fetch the target issue template from your website repo
+            const owner = 'YOUR_GITHUB_USERNAME_OR_ORG';
+            const repo = 'YOUR_WEBSITE_REPO_NAME';
+            const path = '.github/ISSUE_TEMPLATE/faculty_profile.yml';
+
+            let fileData;
+            try {
+              fileData = await github.rest.repos.getContent({ owner, repo, path });
+            } catch (error) {
+              console.error("Error fetching template from website repo:", error);
+              process.exit(1);
+            }
+
+            const currentContent = Buffer.from(fileData.data.content, 'base64').toString('utf8');
+            const sha = fileData.data.sha;
+
+            // 3. Replace the options block using regex
+            const regex = /(id: faculty_select[\s\S]*?options:\n)([\s\S]*?)(?=\n  - type:|\s*$)/;
+            if (!regex.test(currentContent)) {
+              console.error("Could not find faculty_select options block in the target template.");
+              process.exit(1);
+            }
+
+            const updatedContent = currentContent.replace(regex, `$1${newOptionsYaml}`);
+
+            // If nothing changed, skip committing
+            if (currentContent === updatedContent) {
+              console.log("Template is already up to date.");
+              return;
+            }
+
+            // 4. Commit the update back to the website repo via GitHub API
+            await github.rest.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path,
+              message: "Auto-update faculty issue template dropdown from mole-logistics registry",
+              content: Buffer.from(updatedContent).toString('base64'),
+              sha: sha
+            });
+
+            console.log("Successfully updated issue template in the website repository!");

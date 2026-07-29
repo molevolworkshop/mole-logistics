@@ -1,0 +1,104 @@
+- name: "Coalescent Extending"
+  slug: "coalescent-extending"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/beerli/coalescent-extending.pdf"
+  faculty: "peter-beerli"
+
+- name: "Coalescent Intro"
+  slug: "coalescent-intro"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/beerli/coalescent-intro.pdf"
+  faculty: "peter-beerli"
+
+- name: "Migrate Bayesfactor"
+  slug: "migrate-bayesfactor"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/beerli/migrate-bayesfactor.pdf"
+  faculty: "peter-beerli"
+
+- name: "Model Selection"
+  slug: "model-selection"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/brown/model-selection.pdf"
+  faculty: "jeremy-brown"
+
+- name: "RevBayes Graphical Models"
+  slug: "revbayes-graphical-models"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/brown/revbayes-graphical-models.pdf"
+  faculty: "jeremy-brown"
+
+- name: "IQ-Tree Intro"
+  slug: "iqtree-intro"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/bui/iqtree-intro.pdf"
+  faculty: "minh-bui"
+
+- name: "Adaptive Protein Intro"
+  slug: "adaptive-protein-intro"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/chang/adaptive-protein-intro.pdf"
+  faculty: "belinda-chang"
+
+- name: "Adaptive Protein Selection"
+  slug: "adaptive-protein-selection"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/chang/adaptive-protein-selection.pdf"
+  faculty: "belinda-chang"
+
+- name: "Pangenomes"
+  slug: "pangenomes"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/edwards/pangenomes.pdf"
+  faculty: "scott-edwards"
+
+- name: "Phylogeography"
+  slug: "phylogeography"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/edwards/phylogeography.pdf"
+  faculty: "scott-edwards"
+
+- name: "Deep Phylogenomics"
+  slug: "deep-phylogenomics"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/eme/deep-phylogenomics.pdf"
+  faculty: "laura-eme"
+
+- name: "Phylodynamics 1"
+  slug: "phylodynamics-1"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/gill/phylodynamics-1.pdf"
+  faculty: "mandev-gill"
+
+- name: "Phylodynamics 2"
+  slug: "phylodynamics-2"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/gill/phylodynamics-2.pdf"
+  faculty: "mandev-gill"
+
+- name: "Evolutionary Applications"
+  slug: "evolutionary-applications"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/knowles/evolutionary-applications.pdf"
+  faculty: "lacey-knowles"
+
+- name: "Species Tree Estimation"
+  slug: "species-tree-estimation"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/kubatko/species-tree-estimation.pdf"
+  faculty: "laura-kubatko"
+
+- name: "Opentree"
+  slug: "opentree"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/mctavish/opentree.pdf"
+  faculty: "emily-jane-mctavish"
+
+- name: "Phylogenomics"
+  slug: "phylogenomics"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/mctavish/phylogenomics.pdf"
+  faculty: "emily-jane-mctavish"
+
+- name: "Ant Phylogenomics 1"
+  slug: "ant-phylogenomics-1"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/moreau/ant-phylogenomics-1.pdf"
+  faculty: "corrie-moreau"
+
+- name: "Ant Phylogenomics 2"
+  slug: "ant-phylogenomics-2"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/moreau/ant-phylogenomics-2.pdf"
+  faculty: "corrie-moreau"
+
+- name: "Machine Learning"
+  slug: "machine-learning"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/smith/machine-learning.pdf"
+  faculty: "megan-smith"
+
+- name: "Bayesian Phylogenetics"
+  slug: "bayesian-phylogenetics"
+  location: "https://github.com/molevolworkshop/moledata/blob/main/lectures/solis-lemus/bayesian-phylogenetics.pdf"
+  faculty: "claudia-solis-lemus"
