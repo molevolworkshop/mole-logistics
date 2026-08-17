@@ -196,3 +196,24 @@ Before the Intro Computing lab, TAs place one of each green (or blue/yellow) and
 Accessing some of the materials from the Open Tree of Life can be slow or break (both the website and the API). This seems to be an issue with the database rebuilding after certain actions, making the first calls to the site slow. Getting things built prior to the lab will make actions a bit faster.
 
 Emily Jane McTavish ran this lab last year — coordinate with her (or whoever runs the lab) if this is still an issue, or if you encounter it while testing the labs.
+
+# After MOLE 
+In 2026 we ported our slack workspace to discord, since slack erases messages after 90 days. Steps:
+1. [Created a fresh discord server] (https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server) called mbl-mole-2026 after the slack workspace.
+
+2. Used a tool called [slackdump](https://github.com/rusq/slackdump) to export the slack workspace. I did this instead of using slack's export button because I wanted to bring our files (paper pdfs and group photos) with me. Run it once to export the full workspace and make sure to change the default export storage type from mattermost to standard or your files will not transfer!! Probably a year from now there will be other arcane issues and back-incompatibilities. Claude helped me id this one for better or worse.. so I'm sure you can use ANTHROPIC RELIGION 5.2 or whatever it's called in 2027 to do the same. For now:
+	Export > Export Options... > Export Storage Type > standard 
+	Export > Run Export
+	Emoji > Run Emoji #if you want to take the custom emojis with you too
+
+3.1 Used a script that claude wrote for me (upload_emojis.py, in this folder) to upload the emojis to the clean discord server. To run the script you need you need the unzipped emoji export, your discord server name, and your discord bot token, which you will generate below in the course of following the slack-to-discord instructions below (but don't run slack-to-discord on the full slack export yet! just emojis)
+
+	python3 upload_emojis.py --source EMOJIS_EXPORT_FOLDER/ --guild DISCORD_SERVER_NAME --token BOT_TOKEN
+
+3. Used a tool called [slack-to-discord](https://github.com/iqtree/iqtree.github.io) to load the slack export into the discord server, following the directions to create a bot, invite it to the server, etc, exactly. 
+	pip install slack-to-discord
+	slack-to-discord --zipfile SLACK_EXPORT.zip --guild DISCORD_SERVER_NAME --token BOT_TOKEN
+
+4. Spot-check the discord server, making sure all users, channels, files imported correctly. Make the private channels private again. Now click the little icon of a person beside the general channel, copy the invite link, and share it with MOLE! 
+
+5. Go to Server Settings > Roles and create roles called Director, TA, and faculty. Give each role default access to the revelant private channels, and then assign people their appropriate roles when they join the discord.
