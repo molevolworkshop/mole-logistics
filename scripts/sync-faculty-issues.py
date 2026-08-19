@@ -66,6 +66,8 @@ def main():
                     f"Please verify and update the profile page for **{name}**.\n\n"
                     f"- **Registry ID:** `{fac_id}`\n"
                     f"- **Role:** {role}\n\n"
+                    f"You can find the page [here](https://molevolworkshop.github.io/faculty/{fac_id}/)\n"
+                    f"Instructions for udpating the page can be found [here](https://github.com/molevolworkshop/molevolworkshop.github.io/tree/main/_faculty)"
                 )
                 
                 # Base labels for all faculty page issues
@@ -73,7 +75,7 @@ def main():
                 
                 # Conditionally add 'missing-bio' if the md file is blank/template
                 if check_bio_status(fac_id, name):
-                    labels.append("missing-bio")
+                    labels.append("missing")
 
                 create_issue(title, body, labels)
 """
