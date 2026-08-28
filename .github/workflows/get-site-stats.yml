@@ -1,0 +1,121 @@
+name: Fetch Filtered GoatCounter Stats to Monthly CSV
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * 1' # Runs every Monday at 08:00 UTC
+    - cron: '0 0 1 * *' # Runs on the 1st of every month to lock in closed monthly totals
+
+jobs:
+  fetch-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Fetch, Filter, and Update Monthly CSV
+        env:
+          GOATCOUNTER_CODE: moleevolution
+          API_KEY: ${{ secrets.GOATCOUNTER_API_KEY }}
+        run: |
+          python3 - <<'EOF'
+          import os
+          import csv
+          import urllib.request
+          import json
+          from datetime import datetime, timezone, timedelta
+
+          api_code = os.environ["GOATCOUNTER_CODE"]
+          api_key = os.environ["API_KEY"]
+
+          now = datetime.now(timezone.utc)
+
+          # Date window selection (handles month-end rollovers)
+          if now.day == 1:
+              first_of_this_month = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+              end_date = first_of_this_month - timedelta(seconds=1)
+              start_date = end_date.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+              period_str = start_date.strftime('%Y-%m')
+          else:
+              start_date = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+              end_date = now
+              period_str = now.strftime('%Y-%m')
+
+          # Fetch from GoatCounter API
+          url = f"https://{api_code}.goatcounter.com/api/v0/stats/hits?start={start_date.strftime('%Y-%m-%dT%H:%M:%SZ')}&end={end_date.strftime('%Y-%m-%dT%H:%M:%SZ')}"
+          
+          req = urllib.request.Request(url, headers={"Authorization": f"Bearer {api_key}"})
+          with urllib.request.urlopen(req) as response:
+              data = json.loads(response.read().decode())
+
+          raw_hits = data.get("hits", [])
+
+          # Filter hits based on your specified criteria
+          filtered_hits = []
+          for hit in raw_hits:
+              path = hit.get("path", "")
+              
+              #Overall site traffic (Homepage)
+              is_homepage = (path == "/" or path == "")
+              
+              #Base-level lab pages: /materials/lab/[slug]/ (exactly 3 segments)
+              segments = [s for s in path.split('/') if s]
+              is_base_lab = (
+                  len(segments) == 3 and
+                  segments[0] == 'materials' and
+                  segments[1] == 'labs'
+              )
+              
+              #Tracked events (PDFs ending in -onsite, download fallbacks, and registry link clicks)
+              is_tracked_event = (
+                  path.endswith("-onsite") or 
+                  path.startswith("download-") or 
+                  path.startswith("material-click-")
+              )
+
+              if is_homepage or is_base_lab or is_tracked_event:
+                  filtered_hits.append(hit)
+
+          os.makedirs("stats", exist_ok=True)
+          csv_file = "stats/monthly_traffic.csv"
+
+          # Read existing rows
+          rows = []
+          if os.path.exists(csv_file):
+              with open(csv_file, mode="r", encoding="utf-8") as f:
+                  reader = csv.reader(f)
+                  rows = list(reader)
+
+          header = ["path", "time_period", "visits"]
+          if rows and rows[0] == header:
+              rows = rows[1:]
+          
+          # Remove existing rows for this specific time period to prevent duplicates
+          rows = [row for row in rows if len(row) > 1 and row[1] != period_str]
+
+          # Append fresh filtered rows
+          for hit in filtered_hits:
+              path = hit.get("path")
+              count = hit.get("count")
+              rows.append([path, period_str, str(count)])
+
+          # Write clean CSV output
+          with open(csv_file, mode="w", encoding="utf-8", newline="") as f:
+              writer = csv.writer(f)
+              writer.writerow(header)
+              writer.writerows(rows)
+
+          print(f"Successfully processed and updated monthly stats for: {period_str}")
+          EOF
+
+      - name: Commit and Push Filtered CSV Stats
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats/monthly_traffic.csv
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update filtered monthly goatcounter stats [skip ci]" && git push)
