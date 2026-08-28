@@ -73,9 +73,7 @@ jobs:
               
               #Tracked events (PDFs ending in -onsite, download fallbacks, and registry link clicks)
               is_tracked_event = (
-                  path.endswith("-onsite") or 
-                  path.startswith("download-") or 
-                  path.startswith("material-click-")
+                  path.endswith("-download")
               )
 
               if is_homepage or is_base_lab or is_tracked_event:
