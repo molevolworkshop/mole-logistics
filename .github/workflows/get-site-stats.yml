@@ -47,7 +47,10 @@ jobs:
               period_str = now.strftime('%Y-%m')
 
           # Fetch from GoatCounter API (using YYYY-MM-DD format to avoid 404 errors)
-          url = f"https://{api_code}.goatcounter.com/api/v0/stats/hits?start={start_date.strftime('%Y-%m-%d')}&end={end_date.strftime('%Y-%m-%d')}"
+          
+          #allow single click events for testing
+          url = f"https://{api_code}.goatcounter.com/api/v0/stats/hits?start={start_date.strftime('%Y-%m-%d')}&end={end_date.strftime('%Y-%m-%d')}&limit=-1"
+          #url = f"https://{api_code}.goatcounter.com/api/v0/stats/hits?start={start_date.strftime('%Y-%m-%d')}&end={end_date.strftime('%Y-%m-%d')}"
           
           req = urllib.request.Request(url, headers={"Authorization": f"Bearer {api_key}"})
           with urllib.request.urlopen(req) as response:
