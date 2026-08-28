@@ -73,7 +73,7 @@ jobs:
               
               # Tracked events (PDFs ending in -download, -onsite, or custom registry clicks)
               is_tracked_event = (
-                  path.endswith("-download") or 
+                  path.endswith("-download")
               )
 
               if is_homepage or is_base_lab or is_tracked_event:
