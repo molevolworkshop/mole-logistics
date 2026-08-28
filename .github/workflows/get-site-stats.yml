@@ -56,7 +56,10 @@ jobs:
 
           # Filter hits based on your criteria
           filtered_hits = []
+          raw_hits = data.get("hits", [])
+          print("DEBUG - All paths returned from API:", [h.get("path") for h in raw_hits])
           for hit in raw_hits:
+              
               path = hit.get("path", "")
               
               # Overall site traffic (Homepage)
