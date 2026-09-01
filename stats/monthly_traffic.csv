@@ -1,4 +1,14 @@
 path,time_period,visits
-/,2026-08,4
-migrate-bayesfactor-download,2026-08,1
-/materials/labs/alignment-lab,2026-08,1
+/,2026-08,23
+/materials/labs/alignment-lab,2026-08,3
+phylogeography-download,2026-08,2
+evolutionary-applications-download,2026-08,2
+migrate-bayesfactor-download,2026-08,2
+phylodynamics-1-download,2026-08,1
+pamldemo-download,2026-08,1
+deep-phylogenomics-download,2026-08,1
+bielawski_lecture_part_1-download,2026-08,1
+iqtree-intro-download,2026-08,1
+adaptive-protein-selection-download,2026-08,1
+machine-learning-download,2026-08,1
+adaptive-protein-intro-download,2026-08,1
