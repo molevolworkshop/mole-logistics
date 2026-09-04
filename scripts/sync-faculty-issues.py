@@ -63,7 +63,9 @@ def sync_faculty_issues(existing_titles):
                     f"Please verify and update the profile page for **{name}**.\n\n"
                     f"- **Registry ID:** `{fac_id}`\n"
                     f"- **Role:** {role}\n\n"
-                    f"You can find the page [here](https://molevolworkshop.github.io/faculty/{fac_id}/)\n"
+                    f"You can find the page [here](https://molevolworkshop.github.io/faculty/{fac_id}/)\n\n"
+                    f"**Note:** Nothing needs to be done in the `mole-logistics` repository, as it is used for tracking only. "
+                    f"Please make all changes and submit your pull request in the [website repository](https://github.com/molevolworkshop/molevolworkshop.github.io).\n\n"
                     f"Instructions for updating the page can be found [here](https://github.com/molevolworkshop/molevolworkshop.github.io/tree/main/_faculty)"
                 )
                 
@@ -95,6 +97,13 @@ def sync_material_issues(existing_titles, target_type, label_prefix, folder_name
             if title not in existing_titles:
                 labels = [label_prefix, "needs-review"]
                 
+                formatting_instructions = (
+                    f"\n\n**Note:** Nothing needs to be done in the `mole-logistics` repository, as it is used for tracking only. "
+                    f"Please make all changes and submit your pull request in the [moledata repository](https://github.com/molevolworkshop/moledata).\n\n"
+                    f"For details on how changes should be styled and formatted, please consult the "
+                    f"[Contributing Guidelines](https://github.com/molevolworkshop/moledata/blob/main/CONTRIBUTING.md)."
+                )
+
                 if not material_location:
                     target_dir = os.path.join("moledata-repo", folder_name, item_id)
                     if not os.path.isdir(target_dir):
@@ -105,6 +114,7 @@ def sync_material_issues(existing_titles, target_type, label_prefix, folder_name
                         f"- **Item ID:** `{item_id}`\n"
                         f"- **Material Location:** Onsite (`{folder_name}/{item_id}/`)\n\n"
                         f"Please ensure the directory `{folder_name}/{item_id}/` exists in the `moledata` repository with all required files."
+                        f"{formatting_instructions}"
                     )
                 else:
                     labels.append("offsite")
@@ -114,6 +124,7 @@ def sync_material_issues(existing_titles, target_type, label_prefix, folder_name
                         f"- **Item ID:** `{item_id}`\n"
                         f"- **Material Location:** `{material_location}`\n\n"
                         f"Please verify that the off-site link and materials are up to date."
+                        f"{formatting_instructions}"
                     )
 
                 create_issue(title, body, labels)
