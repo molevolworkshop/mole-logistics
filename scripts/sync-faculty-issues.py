@@ -28,7 +28,6 @@ def check_bio_status(fac_id, name):
     Checks if the faculty member's markdown file exists in the checked-out website repo 
     and whether it still contains placeholder text or is missing entirely.
     """
-    # Fallback slug generation matching your site's format
     slug = fac_id if fac_id else name.lower().replace(r"[^a-z0-9\s-]", "").replace(" ", "-")
     md_path = os.path.join("website-repo", "_faculty", f"{slug}.md")
 
@@ -38,7 +37,6 @@ def check_bio_status(fac_id, name):
     try:
         with open(md_path, "r", encoding="utf-8") as f:
             content = f.read()
-            # Check if it only has the template / placeholder text
             if "Faculty bio coming soon!" in content or len(content.strip()) < 150:
                 return True
     except Exception as e:
@@ -46,13 +44,12 @@ def check_bio_status(fac_id, name):
         
     return False
 
-def main():
-    existing_titles = get_existing_issues()
-
-    # Path to registry inside the checked-out website repository directory
+def sync_faculty_issues(existing_titles):
     registry_path = os.path.join("website-repo", "_data", "faculty-registry.csv")
+    if not os.path.exists(registry_path):
+        print(f"Faculty registry not found at {registry_path}")
+        return
 
-    # 1. Sync Faculty Registry Issues
     with open(registry_path, mode="r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -67,42 +64,65 @@ def main():
                     f"- **Registry ID:** `{fac_id}`\n"
                     f"- **Role:** {role}\n\n"
                     f"You can find the page [here](https://molevolworkshop.github.io/faculty/{fac_id}/)\n"
-                    f"Instructions for udpating the page can be found [here](https://github.com/molevolworkshop/molevolworkshop.github.io/tree/main/_faculty)"
+                    f"Instructions for updating the page can be found [here](https://github.com/molevolworkshop/molevolworkshop.github.io/tree/main/_faculty)"
                 )
                 
-                # Base labels for all faculty page issues
                 labels = ["faculty-page", "needs-review"]
-                
-                # Conditionally add 'missing-bio' if the md file is blank/template
                 if check_bio_status(fac_id, name):
                     labels.append("missing")
 
                 create_issue(title, body, labels)
-"""
-    # 2. Sync Event Schedule Issues (Lectures & Labs)
-    with open("_data/event-schedule.csv", mode="r", encoding="utf-8") as f:
+
+def sync_material_issues(existing_titles, target_type, label_prefix, folder_name):
+    registry_path = os.path.join("moledata-repo", "_data", "materials-registry.csv")
+    if not os.path.exists(registry_path):
+        print(f"Materials registry not found at {registry_path}")
+        return
+
+    with open(registry_path, mode="r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            category = row["category"]
-            if category in ["lecture", "lab"]:
-                title = f"Verify {category.capitalize()}: {row['title']} ({row['date']})"
-                if title not in existing_titles:
-                    presenter = row.get("presenter", "Unassigned")
-                    material = row.get("material_location", "")
-                    
-                    body = (
-                        f"Please review materials and details for this session.\n\n"
-                        f"- **Date:** {row['date']} ({row['start_time']} - {row['end_time']})\n"
-                        f"- **Room:** {row['room']}\n"
-                        f"- **Presenter ID:** `{presenter}`\n"
-                        f"- **Current Material Link:** `{material}`\n\n"
-                        f"### Checklist\n"
-                        f"- [ ] Confirm slides/code repository link is up to date\n"
-                        f"- [ ] Verify room assignment and schedule time"
-                    )
-                    create_issue(title, body, ["type: session-material", "status: needs-review"])
-"""
+            mat_type = row.get("type", row.get("category", "")).strip().lower()
+            if mat_type != target_type:
+                continue
 
+            item_id = row.get("item_id", row.get("id", "")).strip()
+            title_name = row.get("title", item_id).strip()
+            faculty_name = row.get("faculty", row.get("presenter", row.get("author", "Unassigned"))).strip()
+            material_location = row.get("material_location", row.get("location", "")).strip()
+
+            title = f"Review & Update {target_type.capitalize()} Materials: {title_name} [{item_id}]"
+            if title not in existing_titles:
+                labels = [label_prefix, "needs-review"]
+                
+                if not material_location:
+                    target_dir = os.path.join("moledata-repo", folder_name, item_id)
+                    if not os.path.isdir(target_dir):
+                        labels.append("missing")
+                    body = (
+                        f"Please review and update the onsite {target_type} materials for **{title_name}**.\n\n"
+                        f"- **Faculty / Author:** {faculty_name}\n"
+                        f"- **Item ID:** `{item_id}`\n"
+                        f"- **Material Location:** Onsite (`{folder_name}/{item_id}/`)\n\n"
+                        f"Please ensure the directory `{folder_name}/{item_id}/` exists in the `moledata` repository with all required files."
+                    )
+                else:
+                    labels.append("offsite")
+                    body = (
+                        f"Please review and update the off-site {target_type} materials for **{title_name}**.\n\n"
+                        f"- **Faculty / Author:** {faculty_name}\n"
+                        f"- **Item ID:** `{item_id}`\n"
+                        f"- **Material Location:** `{material_location}`\n\n"
+                        f"Please verify that the off-site link and materials are up to date."
+                    )
+
+                create_issue(title, body, labels)
+
+def main():
+    existing_titles = get_existing_issues()
+    sync_faculty_issues(existing_titles)
+    sync_material_issues(existing_titles, target_type="lecture", label_prefix="lecture", folder_name="lectures")
+    sync_material_issues(existing_titles, target_type="lab", label_prefix="lab", folder_name="labs")
 
 if __name__ == "__main__":
     main()

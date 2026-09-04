@@ -17,9 +17,16 @@ jobs:
       - name: Checkout website repository
         uses: actions/checkout@v4
         with:
-          repository: molevolworkshop/molevolworkshop.github.io # Replace with your actual website repo if different
+          repository: molevolworkshop/molevolworkshop.github.io
           token: ${{ secrets.GITHUB_TOKEN }}
           path: website-repo
+
+      - name: Checkout moledata repository
+        uses: actions/checkout@v4
+        with:
+          repository: molevolworkshop/moledata
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: moledata-repo
 
       - name: Set up Python
         uses: actions/setup-python@v5
