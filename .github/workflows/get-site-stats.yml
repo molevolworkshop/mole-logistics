@@ -121,4 +121,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -f stats/monthly_traffic.csv
-          git diff --quiet && git diff --staged --quiet || (git pull --rebase origin $(git rev-parse --abbrev-ref HEAD) && git commit -m "chore: update filtered monthly goatcounter stats [skip ci]" && git push)
+          git diff --staged --quiet || git commit -m "chore: update filtered monthly goatcounter stats [skip ci]"
+          git push
