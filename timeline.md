@@ -12,6 +12,7 @@
     - Email Cheryl Gherst (cgherst@mbl.edu) to reserve MBL Club (Meigs?) for opening reception (5:30-9) and lobster dinner
     - Reserve MBL Club for socials
         - per conversations with Linda/Cheryl, they will check if we can stay in MBL Club until midnight and if we could have a fridge there (to avoid moving drinks back and forth)
+    - Send email to faculty so that they can update their bio. We need to provide info about the github issue. Note: person approving the PRs should run the website locally first (Josh TODO: add link to where we find the commands)
 - January 2027: 
     - begin process to create master VM: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
     - we get the budget from Jenn Martin (jmartin@mbl.edu)
