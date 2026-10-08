@@ -24,6 +24,7 @@
 - March 2027:
     - Find a course assistant (CA) in UConn or close universities
     - Confirm TAs
+          - Update the faculty registry, do not trigger the GitHub Action for the issues, ask TAs to fill out issue for their bio    
     - Email catering@mbl.edu about food for opening reception and course lobster dinner
         - In 2026, these emails were redirected to Alexander.Platika@sodexo.com aplatika@mbl.edu and Steven.Allen@sodexo.com
         - mention that all of our guests are on the dining plan, since they're staying on campus. Jenn Martin said that the cost of the opening reception and lobster boil should be reduced by the cost of the dinners that the event is replacing.
