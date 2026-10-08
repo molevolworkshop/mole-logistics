@@ -5,6 +5,7 @@
     - Update website: https://github.com/molevolworkshop
     - Invite faculty: [Schedule](https://docs.google.com/spreadsheets/d/1GyNeKDyaUH_uL2mc98ovRE7poyuP7QmhQUBnvOjN5zU/edit?usp=sharing)
          - update the schedules and registries (Josh TODO give full files)
+         - once registries are updated, we have to manually create all github issues
     - Email Cheryl Gherst (cgherst@mbl.edu) to ask her to update the MOLE flyer
     - Advertise workshop (usual deadline end of January)
 - December 2026:
