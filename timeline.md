@@ -35,6 +35,7 @@
     - Email faculty with instructions on the GitHub Issue templates for the lectures and labs (see [here](https://github.com/molevolworkshop/moledata/blob/main/CONTRIBUTING.md)). Ask them to do this task **2 weeks** before the start of the workshop
 - April 2027: 
     - Confirm faculty/TA stipends with Jenn Martin (jmartin@mbl.edu)
+    - Add the participants to [participants.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/participants.csv)
 - Two weeks before start: 
     - create TAs VMs for everyone to check the computer labs: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
     - create discord workspace and send [welcome email](https://github.com/molevolworkshop/mole-logistics/tree/main/emails/welcome-participants.md)
