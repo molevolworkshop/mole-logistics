@@ -4,15 +4,19 @@
 - August/Sept 2026 -> get the workshop dates for next year from MBL
     - Update website: https://github.com/molevolworkshop
     - Invite faculty: [Schedule](https://docs.google.com/spreadsheets/d/1GyNeKDyaUH_uL2mc98ovRE7poyuP7QmhQUBnvOjN5zU/edit?usp=sharing)
-         - update the schedules and registries (Josh TODO give full files)
-         - once registries are updated, we have to manually create all github issues: we go to mole-logistics, Actions, "sync tracking issues" and "run "workflow" (Josh TODO: add link to readme that describes the action)
+         - update the schedules and registries:
+             - [faculty-registry.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/faculty-registry.csv)
+             - [event-schedule.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/event-schedule.csv)
+             - [event-registry.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/event-registry.csv) This likely won't need to be updated unless there are new non-lecture/lab events.
+             - [materials-registry.csv](https://github.com/molevolworkshop/moledata/blob/main/_data/materials-registry.csv)
+         - once registries are updated, we have to manually create all github issues: we go to mole-logistics, Actions, [Sync tracking issues](https://github.com/molevolworkshop/mole-logistics/actions/workflows/track-issues.yml) and "run "workflow". See [here])() for a description of the action. Briefly, it is meant to create issues for the directors to track the progress of yearly updates from the faculty.
     - Email Cheryl Gherst (cgherst@mbl.edu) to ask her to update the MOLE flyer
     - Advertise workshop (usual deadline end of January)
 - December 2026:
     - Email Cheryl Gherst (cgherst@mbl.edu) to reserve MBL Club (Meigs?) for opening reception (5:30-9) and lobster dinner
     - Reserve MBL Club for socials
         - per conversations with Linda/Cheryl, they will check if we can stay in MBL Club until midnight and if we could have a fridge there (to avoid moving drinks back and forth)
-    - Send email to faculty so that they can update their bio. We need to provide info about the github issue. Note: person approving the PRs should run the website locally first (Josh TODO: add link to where we find the commands)
+    - Send email to faculty so that they can update their bio. We need to provide info about the github issue. Note: person approving the PRs should run the website locally first (see [here](https://github.com/molevolworkshop/molevolworkshop.github.io#jekyll)).
          - Same email: ask if there are changes to VMs
 - January 2027: 
     - begin process to create master VM: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
