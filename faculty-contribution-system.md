@@ -3,13 +3,12 @@
 How faculty submit their materials each year, and how the system is set up and run.
 
 
-
 ## Faculty Contributions
 
 There are three main items that faculty will update regarding mole-terials:
-- Bio page on the website
-- Lecture materials
-- Lab materials 
+- [Bio page on the website](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/CONTRIBUTING.md)
+- [Lecture materials](https://github.com/molevolworkshop/moledata/blob/main/CONTRIBUTING.md)
+- [Lab materials](https://github.com/molevolworkshop/moledata/blob/main/CONTRIBUTING.md) 
 
 Each of these items have their own specific formatting requirements and directory structures.
 For standardization and maintainance, it is vital that these standards are maintained. However edits are made, the key is to use PRs as the quality control check.
