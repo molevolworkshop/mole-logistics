@@ -11,7 +11,7 @@ Post 2026 workshop to-do items:
 
 The organizational playbook for the [Workshop on Molecular Evolution (MOLE)](https://molevolworkshop.github.io/), held each May at the MBL in Woods Hole. This repo covers the *running* of the workshop — timeline, director duties, TA/CA info, virtual machines, and participant communications. It doesn't hold course materials or the website; see [Other MOLE repos](#other-mole-repos) below.
 
-If you're new here: start with [timeline.md](#timelinemd) for the year-by-year checklist, and [day2day-director.md](#day2day-directormd) for what to watch during the workshop itself.
+If you're the new director, start with [timeline.md](#timelinemd) for the year-by-year checklist, and [day2day-director.md](#day2day-directormd) for what to watch during the workshop itself.
 
 ## Contents
 
