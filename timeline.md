@@ -1,9 +1,9 @@
 # Timeline for MOLE 2027
 
-[x] Request extension ACCESS on July 20, 2026 [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
-- August/Sept 2026 -> get the workshop dates for next year from MBL
-    - Update website: https://github.com/molevolworkshop
-    - Invite faculty: [Schedule](https://docs.google.com/spreadsheets/d/1GyNeKDyaUH_uL2mc98ovRE7poyuP7QmhQUBnvOjN5zU/edit?usp=sharing)
+- Request extension ACCESS on July 20, 2026 (**Done** on July 16 by Jeremy and Claudia: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines))
+- Sept/Oct 2026 -> get the workshop dates for next year from MBL
+    - Invite faculty: [Schedule](https://docs.google.com/spreadsheets/d/1iGC1ipXOdX7xqQb4HNgHyA2I_1G1bleUi1pe48ud_us/edit?gid=1759619365#gid=1759619365)
+    - After faculty accept the dates:
          - update the schedules and registries:
              - [faculty-registry.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/faculty-registry.csv)
              - [event-schedule.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/event-schedule.csv)
@@ -11,13 +11,13 @@
              - [materials-registry.csv](https://github.com/molevolworkshop/moledata/blob/main/_data/materials-registry.csv)
          - once registries are updated, we have to manually create all github issues: we go to mole-logistics, Actions, [Sync tracking issues](https://github.com/molevolworkshop/mole-logistics/actions/workflows/track-issues.yml) and "run "workflow". See [here](https://github.com/molevolworkshop/mole-logistics/blob/main/.github/workflows/README.md) for a description of the action. Briefly, it is meant to create issues for the directors to track the progress of yearly updates from the faculty.
     - Email Cheryl Gherst (cgherst@mbl.edu) to ask her to update the MOLE flyer
-    - Advertise workshop (usual deadline end of January)
+        - With the flyer, advertise workshop (usual deadline end of January): evoldir mailing list, social media, past year slacks, faculty
+    - Email Cheryl Gherst (cgherst@mbl.edu) 
+        - to reserve Meigs for opening reception and lobster dinner
+        - to reserve MBL Club for socials
+            - per conversations with Linda/Cheryl (in MOLE 2026), they will check if we can stay in MBL Club until midnight and if we could have a fridge there (to avoid moving drinks back and forth)
 - December 2026:
-    - Email Cheryl Gherst (cgherst@mbl.edu) to reserve MBL Club (Meigs?) for opening reception (5:30-9) and lobster dinner
-    - Reserve MBL Club for socials
-        - per conversations with Linda/Cheryl, they will check if we can stay in MBL Club until midnight and if we could have a fridge there (to avoid moving drinks back and forth)
-    - Send email to faculty so that they can update their bio. We need to provide info about the github issue. Note: person approving the PRs should run the website locally first (see [here](https://github.com/molevolworkshop/molevolworkshop.github.io#jekyll)).
-         - Same email: ask if there are changes to VMs
+    - Send email to faculty so that they can update their bio with info about [the github issue](https://github.com/molevolworkshop/molevolworkshop.github.io/issues/new?template=faculty-profile.yml). Note: person approving the PRs should run the website locally first (see [here](https://github.com/molevolworkshop/molevolworkshop.github.io#jekyll)). In the same email, we want to ask if there are changes to VMs as we will begin the process of building them in January.
 - January 2027: 
     - begin process to create master VM: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
     - we get the budget from Jenn Martin (jmartin@mbl.edu)
@@ -32,12 +32,12 @@
     - Email catering@mbl.edu about food for opening reception and course lobster dinner
         - In 2026, these emails were redirected to Alexander.Platika@sodexo.com aplatika@mbl.edu and Steven.Allen@sodexo.com
         - mention that all of our guests are on the dining plan, since they're staying on campus. Jenn Martin said that the cost of the opening reception and lobster boil should be reduced by the cost of the dinners that the event is replacing.
-- One month before the start (~April): 
-    - Create this year's faculty contribution tracking (board + one issue per faculty, from the confirmed roster) and notify faculty -- materials (slides + bio) and computer-lab confirmation are due **two weeks before the start**; see [faculty-contribution-system.md](faculty-contribution-system.md)
+    - Email faculty with instructions on the GitHub Issue templates for the lectures and labs (see [here](https://github.com/molevolworkshop/moledata/blob/main/CONTRIBUTING.md)). Ask them to do this task **2 weeks** before the start of the workshop
+- April 2027: 
     - Confirm faculty/TA stipends with Jenn Martin (jmartin@mbl.edu)
 - Two weeks before start: 
     - create TAs VMs for everyone to check the computer labs: [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
-    - create slack workspace and send [welcome email](https://github.com/molevolworkshop/mole-logistics/tree/main/emails/welcome-participants.md)
+    - create discord workspace and send [welcome email](https://github.com/molevolworkshop/mole-logistics/tree/main/emails/welcome-participants.md)
     - collect intro slides for name tags
 - One week before start: 
     - create all VMs [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
