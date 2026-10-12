@@ -9,7 +9,7 @@
              - [event-schedule.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/event-schedule.csv)
              - [event-registry.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/event-registry.csv) This likely won't need to be updated unless there are new non-lecture/lab events.
              - [materials-registry.csv](https://github.com/molevolworkshop/moledata/blob/main/_data/materials-registry.csv)
-         - once registries are updated, we have to manually create all github issues: we go to mole-logistics, Actions, [Sync tracking issues](https://github.com/molevolworkshop/mole-logistics/actions/workflows/track-issues.yml) and "run "workflow". See [here])() for a description of the action. Briefly, it is meant to create issues for the directors to track the progress of yearly updates from the faculty.
+         - once registries are updated, we have to manually create all github issues: we go to mole-logistics, Actions, [Sync tracking issues](https://github.com/molevolworkshop/mole-logistics/actions/workflows/track-issues.yml) and "run "workflow". See [here])(https://github.com/molevolworkshop/mole-logistics/blob/main/.github/workflows/README.md) for a description of the action. Briefly, it is meant to create issues for the directors to track the progress of yearly updates from the faculty.
     - Email Cheryl Gherst (cgherst@mbl.edu) to ask her to update the MOLE flyer
     - Advertise workshop (usual deadline end of January)
 - December 2026:
