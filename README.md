@@ -1,12 +1,3 @@
-# Important things for MOLE 2027:
-- Apply to ACCESS extension on July 20, 2026 (needs to be done by Tracy Heath or Jeremy Brown as PIs)
-    - **Done** on July 16 by Jeremy and Claudia [notes](https://github.com/molevolworkshop/mole-logistics/tree/main/virtual-machines)
-- Add a session after the (optional) ethics where faculty/participants present the types of activites they have worked on to move the needle and have an impact in the state of the world
-- Consider moving Joe's first part of lecture earlier (1st day?)
-
-Post 2026 workshop to-do items:
-- port slack to discord 
-
 # MOLE workshop organization logistics
 
 The organizational playbook for the [Workshop on Molecular Evolution (MOLE)](https://molevolworkshop.github.io/), held each May at the MBL in Woods Hole. This repo covers the *running* of the workshop — timeline, director duties, TA/CA info, virtual machines, and participant communications. It doesn't hold course materials or the website; see [Other MOLE repos](#other-mole-repos) below.
