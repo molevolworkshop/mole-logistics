@@ -10,6 +10,7 @@
              - [event-registry.csv](https://github.com/molevolworkshop/molevolworkshop.github.io/blob/main/_data/event-registry.csv) This likely won't need to be updated unless there are new non-lecture/lab events.
              - [materials-registry.csv](https://github.com/molevolworkshop/moledata/blob/main/_data/materials-registry.csv)
          - once registries are updated, the director needs to manually create all github issues to keep track of faculty contributions: we go to mole-logistics, Actions, [Sync tracking issues](https://github.com/molevolworkshop/mole-logistics/actions/workflows/track-issues.yml) and "run workflow". See [here](https://github.com/molevolworkshop/mole-logistics/blob/main/.github/workflows/README.md) for a description of the action. Briefly, it is meant to create issues for the directors to track the progress of yearly updates from the faculty.
+            - **Important:** If there are old lingering issues or if faculty created a pull request before this moment, those issues need to be deleted manually after the sync. Please make sure to check the list of issues to make sure only relevant ones remain.
     - Email Cheryl Gherst (cgherst@mbl.edu) to ask her to update the MOLE flyer
         - With the flyer, advertise workshop (usual deadline end of January): evoldir mailing list, social media, past year slacks, faculty
     - Email Cheryl Gherst (cgherst@mbl.edu) 
